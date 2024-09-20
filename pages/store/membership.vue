@@ -24,13 +24,13 @@ onMounted(() => {
   <div class="cart-container">
     <div class="wrapper">
       <div class="px-4 py-2 border-b border-gray-200">
-        <h2 class="font-semibold text-gray-800">Shopping Cart</h2>
+        <h2 class="font-semibold text-gray-800">Memberships</h2>
       </div>
       <div class="flex flex-col divide-y divide-gray-200">
         <div
           v-for="item in cart_items"
           :key="item.id"
-          class="flex items-center py-4 px-6"
+          class="flex justify-between items-center py-4"
         >
           <img
             class="w-16 h-16 object-cover rounded"
@@ -73,6 +73,14 @@ onMounted(() => {
     width: 80%;
     height: fit-content;
     margin: auto;
+
+    @media screen and (max-width: 630px) {
+      width: 90%;
+
+      h3 {
+        font-size: 12px;
+      }
+    }
   }
 }
 </style>

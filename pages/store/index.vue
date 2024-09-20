@@ -262,10 +262,9 @@ const drop = ref(false);
 .checkout-container {
   width: 100vw;
   height: fit-content;
-
+  padding-top: 13vh;
   .wrapper {
-    padding-top: 19vh;
-    padding-bottom: 3vh;
+    margin-bottom: 3vh;
     width: 80%;
     height: fit-content;
     margin: auto;

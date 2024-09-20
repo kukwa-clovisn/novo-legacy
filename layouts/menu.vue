@@ -14,135 +14,46 @@ const showMenuBar = showMenu();
         class="menu-lg sm:relative bg-gray-800 shadow md:h-full flex-col justify-between hidden sm:flex"
       >
         <div>
-          <div class="h-25 w-full flex items-center justify-start">
+          <div
+            @click="($event) => (navigateTo('/'), (showMenuBar = false))"
+            class="w-full flex items-center justify-start border-b border-gray-700"
+          >
             <img
               src="/novo-logo-small-transparent.png"
-              class="w-13 h-13"
               alt="NOVO LEGACY"
+              class="cursor-pointer"
             />
           </div>
-          <ul class="mt-12" @click="($event) => (showMenuBar = false)">
-            <li
-              @click="($event) => navigateTo('/')"
-              class="flex w-full justify-between text-gray-300 cursor-pointer items-center mb-6"
-            >
-              <nuxt-link
-                to="/"
-                class="flex items-center focus:outline-none focus:ring-2 focus:ring-white"
-              >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="icon icon-tabler icon-tabler-grid"
-                  width="18"
-                  height="18"
-                  viewBox="0 0 24 24"
-                  stroke-width="1.5"
-                  stroke="currentColor"
-                  fill="none"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                >
-                  <path stroke="none" d="M0 0h24v24H0z"></path>
-                  <rect x="4" y="4" width="6" height="6" rx="1"></rect>
-                  <rect x="14" y="4" width="6" height="6" rx="1"></rect>
-                  <rect x="4" y="14" width="6" height="6" rx="1"></rect>
-                  <rect x="14" y="14" width="6" height="6" rx="1"></rect>
-                </svg>
-                <span class="text-sm ml-2">home</span>
-              </nuxt-link>
-              <div
-                class="py-1 px-3 bg-gray-600 rounded text-gray-300 flex items-center justify-center text-xs"
-              >
-                <i class="fa-solid fa-caret-right"></i>
-              </div>
-            </li>
-            <li
-              @click="($event) => navigateTo('/#mission')"
-              class="flex w-full justify-between text-gray-300 cursor-pointer items-center mb-6"
-            >
-              <a
-                href="/#mission"
-                class="flex items-center focus:outline-none focus:ring-2 focus:ring-white"
-              >
-                <span class="text-sm ml-2">about</span>
-              </a>
-              <div
-                class="py-1 px-3 bg-gray-600 rounded text-gray-300 flex items-center justify-center text-xs"
-              >
-                <i class="fa-solid fa-caret-right"></i>
-              </div>
-            </li>
-            <li
-              @click="($event) => navigateTo('/#contacts')"
-              class="flex w-full justify-between text-gray-300 cursor-pointer items-center mb-6"
-            >
-              <a
-                href="/#contacts"
-                class="flex items-center focus:outline-none focus:ring-2 focus:ring-white"
-              >
-                <i class="fa-solid fa-phone mr-2"></i>
-                <span class="text-sm ml-2">contact us</span>
-              </a>
-              <div
-                class="py-1 px-3 bg-gray-600 rounded text-gray-300 flex items-center justify-center text-xs"
-              >
-                <i class="fa-solid fa-caret-right"></i>
-              </div>
-            </li>
-            <li
-              @click="($event) => navigateTo('/store')"
-              class="flex w-full justify-between text-gray-400 hover:text-gray-300 cursor-pointer items-center mb-6"
-            >
-              <nuxt-link
-                to="/store"
-                class="flex items-center focus:outline-none focus:ring-2 focus:ring-white"
-              >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="icon icon-tabler icon-tabler-puzzle"
-                  width="18"
-                  height="18"
-                  viewBox="0 0 24 24"
-                  stroke-width="1.5"
-                  stroke="currentColor"
-                  fill="none"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                >
-                  <path stroke="none" d="M0 0h24v24H0z"></path>
-                  <path
-                    d="M4 7h3a1 1 0 0 0 1 -1v-1a2 2 0 0 1 4 0v1a1 1 0 0 0 1 1h3a1 1 0 0 1 1 1v3a1 1 0 0 0 1 1h1a2 2 0 0 1 0 4h-1a1 1 0 0 0 -1 1v3a1 1 0 0 1 -1 1h-3a1 1 0 0 1 -1 -1v-1a2 2 0 0 0 -4 0v1a1 1 0 0 1 -1 1h-3a1 1 0 0 1 -1 -1v-3a1 1 0 0 1 1 -1h1a2 2 0 0 0 0 -4h-1a1 1 0 0 1 -1 -1v-3a1 1 0 0 1 1 -1"
-                  ></path>
-                </svg>
-                <span class="text-sm ml-2">store</span>
-              </nuxt-link>
-              <div
-                class="py-1 px-3 bg-gray-600 rounded text-gray-300 flex items-center justify-center text-xs"
-              >
-                <i class="fa-solid fa-caret-right"></i>
-              </div>
-            </li>
-            <li
-              @click="($event) => navigateTo('/store/cart')"
-              class="flex w-full justify-between text-gray-400 hover:text-gray-300 cursor-pointer items-center mb-6"
-            >
-              <nuxt-link
-                to="/store/cart"
-                class="flex items-center focus:outline-none focus:ring-2 focus:ring-white"
-                ><i class="fa-solid fa-cart-shopping"></i>
-                <span class="text-sm ml-2">cart</span>
-              </nuxt-link>
-              <div
-                class="py-1 px-3 bg-gray-600 rounded text-gray-300 flex items-center justify-center text-xs"
-              >
-                <i class="fa-solid fa-caret-right"></i>
-              </div>
-            </li>
-          </ul>
+          <nav @click="($event) => (showMenuBar = false)">
+            <nuxt-link to="/" class="flex items-center">
+              <i class="fa-solid fa-home"></i>
+              home
+            </nuxt-link>
+
+            <nuxt-link to="/#mission" class="flex items-center">
+              <i class="fa-solid fa-person"></i>
+              about
+            </nuxt-link>
+
+            <nuxt-link to="/#contacts" class="flex items-center">
+              <i class="fa-solid fa-phone"></i>
+              contact us
+            </nuxt-link>
+
+            <nuxt-link to="/store" class="flex items-center-2">
+              <i class="fa-solid fa-store"></i>
+              store
+            </nuxt-link>
+
+            <nuxt-link to="/store/membership" class="flex items-center"
+              ><i class="fa-brands fa-accessible-icon"></i>
+              membership
+            </nuxt-link>
+          </nav>
         </div>
-        <div class="px-8 border-t border-gray-700">
-          <ul class="w-full flex items-center justify-center bg-gray-800">
-            <li class="cursor-pointer text-white pt-5 pb-3">
+        <div class="px-2 border-t border-gray-700">
+          <div class="w-full flex items-center justify-center bg-gray-800">
+            <span class="cursor-pointer text-white pt-5 pb-3">
               <a
                 href="https://linktr.ee/novolegacy"
                 target="_blank"
@@ -151,107 +62,54 @@ const showMenuBar = showMenu();
               >
                 <i class="fa-solid fa-link mr-2"></i> Media handles</a
               >
-            </li>
-          </ul>
+            </span>
+          </div>
         </div>
       </div>
       <div
         class="menu-sm w-64 h-full relative z-40 bg-gray-800 shadow md:h-fullflex flex-col justify-between sm:hidden transition duration-150 ease-in-out"
       >
         <div>
-          <div class="h-25 w-full flex items-center justify-center">
-            <img src="/novo-logo-small-transparent.png" alt="NOVO LEGACY" />
+          <div
+            @click="($event) => (navigateTo('/'), (showMenuBar = false))"
+            class="w-full flex items-center justify-center"
+          >
+            <img
+              src="/novo-logo-small-transparent.png"
+              alt="NOVO LEGACY"
+              class="cursor-pointer"
+            />
           </div>
-          <ul class="mt-12" @click="($event) => (showMenuBar = false)">
-            <li
-              @click="($event) => navigateTo('/')"
-              class="flex w-full justify-between text-gray-300 hover:text-gray-500 cursor-pointer items-center mb-6"
-            >
-              <nuxt-link
-                to="/"
-                class="flex items-center focus:outline-none focus:ring-2 focus:ring-white"
-              >
-                <i class="fa-solid fa-home"></i>
-                <span class="text-sm ml-2">Home</span>
-              </nuxt-link>
-              <div
-                class="py-1 px-3 bg-gray-600 rounded text-gray-300 flex items-center justify-center text-xs"
-              >
-                <i class="fa-solid fa-caret-right"></i>
-              </div>
-            </li>
-            <li
-              @click="($event) => navigateTo('/#mission')"
-              class="flex w-full justify-between text-gray-300 cursor-pointer items-center mb-6"
-            >
-              <a
-                href="/#mission"
-                class="flex items-center focus:outline-none focus:ring-2 focus:ring-white"
-                ><i class="fa-solid fa-person"></i>
-                <span class="text-sm ml-2">about</span>
-              </a>
-              <div
-                class="py-1 px-3 bg-gray-600 rounded text-gray-300 flex items-center justify-center text-xs"
-              >
-                <i class="fa-solid fa-caret-right"></i>
-              </div>
-            </li>
-            <li
-              @click="($event) => navigateTo('/#contacts')"
-              class="flex w-full justify-between text-gray-300 cursor-pointer items-center mb-6"
-            >
-              <a
-                href="/#contacts"
-                class="flex items-center focus:outline-none focus:ring-2 focus:ring-white"
-              >
-                <i class="fa-solid fa-phone mr-2"></i>
-                <span class="text-sm ml-2">contact us</span>
-              </a>
-              <div
-                class="py-1 px-3 bg-gray-600 rounded text-gray-300 flex items-center justify-center text-xs"
-              >
-                <i class="fa-solid fa-caret-right"></i>
-              </div>
-            </li>
-            <li
-              @click="($event) => navigateTo('/store')"
-              class="flex w-full justify-between text-gray-400 hover:text-gray-300 cursor-pointer items-center mb-6"
-            >
-              <nuxt-link
-                to="/store"
-                class="flex items-center focus:outline-none focus:ring-2 focus:ring-white"
-              >
-                <i class="fa-solid fa-store"></i>
-                <span class="text-sm ml-2">Store</span>
-              </nuxt-link>
-              <div
-                class="py-1 px-3 bg-gray-600 rounded text-gray-300 flex items-center justify-center text-xs"
-              >
-                <i class="fa-solid fa-caret-right"></i>
-              </div>
-            </li>
-            <li
-              @click="($event) => navigateTo('/store')"
-              class="flex w-full justify-between text-gray-400 hover:text-gray-300 cursor-pointer items-center mb-6"
-            >
-              <nuxt-link
-                to="/store/cart"
-                class="flex items-center focus:outline-none focus:ring-2 focus:ring-white"
-              >
-                <i class="fa-solid fa-cart-shopping"></i>
-                <span class="text-sm ml-2">cart</span>
-              </nuxt-link>
-              <div
-                class="py-1 px-3 bg-gray-600 rounded text-gray-300 flex items-center justify-center text-xs"
-              >
-                <i class="fa-solid fa-caret-right"></i>
-              </div>
-            </li>
-          </ul>
+          <nav @click="($event) => (showMenuBar = false)">
+            <nuxt-link to="/" class="flex items-center">
+              <i class="fa-solid fa-home"></i>
+              Home
+            </nuxt-link>
+
+            <nuxt-link to="/#mission" class="flex items-center"
+              ><i class="fa-solid fa-person"></i>
+              about
+            </nuxt-link>
+
+            <nuxt-link to="/#contacts" class="flex items-center">
+              <i class="fa-solid fa-phone"></i>
+              contact us
+            </nuxt-link>
+
+            <nuxt-link to="/store" class="flex items-center">
+              <i class="fa-solid fa-store"></i>
+              Store
+            </nuxt-link>
+
+            <nuxt-link to="/store/membership" class="flex items-center">
+              <i class="fa-brands fa-accessible-icon"></i>
+              membership
+            </nuxt-link>
+          </nav>
         </div>
         <div class="px-8 border-t border-gray-700">
-          <ul class="w-full flex items-center justify-center bg-gray-800">
-            <li class="cursor-pointer text-white pt-5 pb-3">
+          <div class="w-full flex items-center justify-center bg-gray-800">
+            <span class="cursor-pointer text-white pt-5 pb-3">
               <a
                 href="https://linktr.ee/novolegacy"
                 target="_blank"
@@ -260,8 +118,8 @@ const showMenuBar = showMenu();
               >
                 <i class="fa-solid fa-link mr-2"></i> Media handles</a
               >
-            </li>
-          </ul>
+            </span>
+          </div>
         </div>
       </div>
     </div>
@@ -291,33 +149,45 @@ const showMenuBar = showMenu();
     z-index: 1;
 
     .menu-lg {
-      width: 45vw;
+      width: 27vw;
     }
 
     img {
-      height: 200px;
+      height: 100px;
       width: auto;
+      margin: 20px auto;
     }
 
-    ul {
+    nav {
       width: 100%;
       height: fit-content;
-      li {
-        padding: 20px;
-        min-height: 70px;
-        margin: 0;
-        border-top: 1px solid rgb(37, 60, 95);
-        a {
-          display: flex;
-          height: 100%;
-          i,
-          span {
-            font-size: 25px;
-            text-transform: capitalize;
-          }
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      flex-direction: column;
+
+      a {
+        padding: 13px 10px;
+        padding-left: 23px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 15px;
+        width: 100%;
+        color: white;
+        font-size: 14px;
+        text-transform: capitalize;
+        i {
+          min-width: 10%;
+
+          font-size: 25px;
+          text-transform: capitalize;
+          color: rgba(56, 182, 255, 0.632);
         }
-        div i {
-          font-size: 21px;
+
+        &:hover {
+          background: rgba(56, 182, 255, 0.188);
+          transform: scale(0.99);
         }
       }
     }

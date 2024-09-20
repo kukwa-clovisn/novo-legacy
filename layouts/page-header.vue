@@ -28,8 +28,9 @@ if (process.client) {
         <nuxt-link to="/store">
           <i class="fa-solid fa-store mr-2"></i> store</nuxt-link
         >
-        <nuxt-link to="/store/cart"
-          ><i class="fa-solid fa-cart-shopping mr-2"></i>cart</nuxt-link
+        <nuxt-link to="/store/membership"
+          ><i class="fa-brands fa-accessible-icon mr-2"></i
+          >membership</nuxt-link
         >
       </div>
       <button class="show-sm" @click="($event) => (showMenuBar = !showMenuBar)">
@@ -115,6 +116,7 @@ header {
       display: flex;
       justify-content: center;
       align-items: center;
+      gap: 20px;
 
       a {
         min-width: 100px;
@@ -122,7 +124,7 @@ header {
         display: flex;
         justify-content: center;
         align-items: center;
-        text-transform: uppercase;
+        text-transform: capitalize;
         font-weight: 500;
         color: rgb(255, 255, 255);
       }
@@ -137,6 +139,10 @@ header {
 
       .checkins {
         min-width: 65%;
+
+        a {
+          font-size: 14px;
+        }
 
         @media screen and (max-width: 360px) {
           font-size: 14px;

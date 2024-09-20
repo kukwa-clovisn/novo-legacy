@@ -59,6 +59,8 @@ footer {
   background-attachment: fixed;
   position: relative;
 
+  background-position: center center;
+
   .wrapper {
     width: 90%;
     padding: 20px;
