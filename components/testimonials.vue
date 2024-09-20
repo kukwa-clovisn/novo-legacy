@@ -1,13 +1,10 @@
 <template>
   <div class="testimonials">
-    <h1
-      class="text-center text-6xl font-extrabold py-6 px-2 capitalize text-white"
-    >
+    <h1 class="text-center text-6xl font-extrabold py-6 px-2 capitalize">
       testimonials
     </h1>
     <p class="text-center text-sm font-medium">
-      Find out what some of our students have to say about our courss and
-      trainings.
+      Find out what some of our students have to say about our mentorship
     </p>
     <div
       class="testimonial-wrapper w-3/4 m-auto flex flex-center gap-5 flex-wrap"
@@ -156,7 +153,7 @@
         .item {
           width: 70%;
           height: fit-content;
-          box-shadow: 0px 0px 15px 1px rgb(102, 102, 102);
+          box-shadow: 0px 0px 35px 1px rgb(208, 208, 208);
           padding: 20px;
           margin: auto;
         }
