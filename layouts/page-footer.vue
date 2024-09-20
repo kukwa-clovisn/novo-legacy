@@ -2,8 +2,8 @@
   <footer>
     <div class="blur-wrapper"></div>
     <div class="wrapper">
-      <img src="/novo-logo.jpg" alt="NOVO LEGACY" />
-      <p class="text-sm leading-6 text-gray-600">
+      <img src="/novo-logo-transparent.png" alt="NOVO LEGACY" />
+      <p class="text-sm leading-6 text-gray-300">
         Making trading look better to the world and a more profitable skill.
       </p>
       <nav>

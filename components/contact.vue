@@ -13,6 +13,7 @@
       <nav>
         <a
           href="https://linktr.ee/novolegacy"
+          target="_blank"
           class="text-gray-800 hover:text-gray-500"
         >
           <svg
@@ -32,6 +33,7 @@
 
         <a
           href="https://linktr.ee/novolegacy"
+          target="_blank"
           class="text-gray-800 hover:text-gray-500"
         >
           <svg

@@ -144,7 +144,7 @@ const showMenuBar = showMenu();
           <ul class="w-full flex items-center justify-center bg-gray-800">
             <li class="cursor-pointer text-white pt-5 pb-3">
               <a
-                href="http://linktree.com/novolegacy"
+                href="https://linktr.ee/novolegacy"
                 target="_blank"
                 rel="noopener noreferrer"
                 class="capitalize text-sm text-gray-400"
@@ -253,7 +253,7 @@ const showMenuBar = showMenu();
           <ul class="w-full flex items-center justify-center bg-gray-800">
             <li class="cursor-pointer text-white pt-5 pb-3">
               <a
-                href="http://linktree.com/novolegacy"
+                href="https://linktr.ee/novolegacy"
                 target="_blank"
                 rel="noopener noreferrer"
                 class="capitalize text-sm text-gray-400"

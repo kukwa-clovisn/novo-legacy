@@ -1,10 +1,10 @@
 <template>
   <div class="pricing-container">
-    <section class="bg-white pt-20 lg:pt-[120px] pb-12 lg:pb-[90px] relative">
+    <section class="bg-white pt-20 pb-12 relative">
       <div class="container">
         <div class="flex flex-wrap -mx-4">
           <div class="w-full px-4">
-            <div class="text-center mx-auto mb-[60px] lg:mb-20 max-w-[510px]">
+            <div class="text-center mx-auto">
               <span
                 class="font-semibold text-lg text-blue-500 mb-2 block"
                 data-aos="zoom-out"
@@ -30,9 +30,9 @@
               <img src="/novo-logo.jpg" alt="NOVO LEGACY" />
             </div>
             <div class="relative">
-              <span class="text-gray font-bold block mb-4">
+              <h1 class="text-gray font-bold block mb-4">
                 NOVO VIP MEMBERSHIP
-              </span>
+              </h1>
               <h2 class="font-bold text-dark mb-5">
                 $449.00
                 <span class="text-base text-body-color font-medium">
@@ -80,11 +80,9 @@
               <img src="/novo-logo-small.jpg" alt="NOVO LEGACY" />
             </div>
             <div class="relative">
-              <span
-                class="text-white font-semibold text-lg block mb-4 capitalize"
-              >
+              <h1 class="font-semibold text-lg block mb-4 capitalize">
                 NOVO legacy pack membership
-              </span>
+              </h1>
               <h2 class="font-bold text-white mb-5">
                 $70.00
                 <span
@@ -218,8 +216,16 @@
           .relative {
             width: 55%;
 
+            h1 {
+              font-size: 12px;
+            }
+
             h2 {
-              font-size: 11px;
+              font-size: 15px;
+
+              span {
+                font-size: 11px;
+              }
             }
           }
         }
