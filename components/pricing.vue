@@ -149,15 +149,17 @@
       padding: 0;
       margin: auto;
       .item {
-        width: 100%;
-        height: 200px;
+        width: 90%;
+        height: 230px;
         border: none;
-        border-radius: 12px;
+        border-radius: 3px;
         padding: 0px;
         margin: 20px auto;
         overflow: hidden;
         display: flex;
         justify-content: flex-start;
+        background: white;
+        box-shadow: 0 0 10px 1px rgb(249, 254, 255);
 
         .img {
           width: 30%;
@@ -192,12 +194,6 @@
           h2 {
             text-align: left;
           }
-        }
-
-        &:first-child {
-          background: linear-gradient to bottom, black, rgb(56, 182, 255);
-          margin-right: 20px;
-          box-shadow: 0 0 50px 1px rgb(164, 164, 164);
         }
       }
     }

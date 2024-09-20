@@ -53,13 +53,13 @@ header {
   background: linear-gradient(to right, rgb(9, 9, 9), rgb(56, 182, 255));
 
   .header-wrapper {
-    width: 100%;
+    width: 90%;
     height: 80%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background: transparent;
-    padding: 0;
+    padding: 0px;
     .logo {
       width: 15%;
       height: 100%;
@@ -79,7 +79,7 @@ header {
     }
 
     nav {
-      min-width: 50%;
+      min-width: 40%;
       height: 100%;
       display: flex;
       justify-content: center;
