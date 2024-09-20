@@ -172,7 +172,7 @@
           img {
             width: auto;
             height: 100%;
-            object-fit: contain;
+            object-fit: cover;
           }
         }
 
@@ -185,7 +185,7 @@
           a {
             width: max-content;
             padding: 15px 23px;
-            background: white;
+            background: rgb(20, 20, 20);
             text-transform: uppercase;
             font-size: 12px;
             border-radius: 2px;
