@@ -205,11 +205,16 @@
         }
 
         @media screen and (max-width: 650px) {
+          width: 97%;
           .img {
-            width: 40%;
+            width: 45%;
           }
           .relative {
-            width: 60%;
+            width: 55%;
+
+            h2 {
+              font-size: 14px;
+            }
           }
         }
       }
