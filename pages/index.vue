@@ -13,10 +13,11 @@
             </p>
             <div class="hero-buttons">
               <nuxt-link to="/#pricing" data-aos="zoom-out"
-                >mentorship plans <i class="fa-solid fa-arrow-down ml-2"></i
+                >mentorship plans
+                <i class="fa-brands fa-accessible-icon ml-1"></i
               ></nuxt-link>
               <nuxt-link to="/store" data-aos="zoom-out"
-                >store<i class="fa-solid fa-store ml-2"></i
+                >store<i class="fa-solid fa-store ml-1"></i
               ></nuxt-link>
             </div>
           </div>
@@ -70,7 +71,7 @@ main {
 
     .landing-page-wrapper {
       width: 100%;
-      min-height: 70vh;
+      min-height: 80vh;
       margin: auto;
       display: flex;
       justify-content: center;
@@ -97,7 +98,7 @@ main {
           text-align: center;
           padding: 20px 0;
           text-align: left;
-          font-family: "Poppins", sans-serif;
+          font-family: "JetBrains Mono", "Poppins", sans-serif;
 
           @media screen and (max-width: 1100px) {
             font-size: 60px;
@@ -112,6 +113,7 @@ main {
         P {
           color: white;
           width: 90%;
+
           text-align: left;
           padding: 10px 0;
           font-size: 15px;
@@ -140,11 +142,15 @@ main {
             display: flex;
             justify-content: center;
             align-items: center;
+            font-family: 600;
+
+            i {
+              font-size: 23px;
+              color: rgb(9, 47, 62);
+            }
 
             &:last-child {
-              background: transparent;
-              color: rgb(255, 255, 255);
-              border: 1px solid rgb(255, 255, 255);
+              background: white;
             }
 
             @media screen and (max-width: 886px) {
@@ -171,7 +177,6 @@ main {
       }
 
       @media screen and (max-width: 881px) {
-        padding-top: 11vh;
         @media screen and (max-width: 768px) {
           background: url("/novo-logo-transparent.png");
           background-repeat: no-repeat;
@@ -182,7 +187,7 @@ main {
           .blur-wrapper {
             display: block;
             // opacity: 0.1;
-            background: linear-gradient(to bottom, transparent 26%, black);
+            background: linear-gradient(to bottom, transparent 30%, black 50%);
           }
 
           .hero-section {
@@ -204,6 +209,10 @@ main {
                   font-size: 30px;
                 }
               }
+            }
+
+            p {
+              margin: auto;
             }
 
             .hero-buttons {

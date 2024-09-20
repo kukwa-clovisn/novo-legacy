@@ -7,7 +7,7 @@ const drop = ref(false);
   <div class="checkout-container">
     <div class="wrapper">
       <div class="flex flex-col justify-center items-center min-h-screen">
-        <div class="product rounded-lg shadow-lg p-6" v-if="subscription">
+        <div class="product rounded-lg p-6" v-if="subscription">
           <h1
             class="relative text-sm text-gray-500 font-medium flex justify-between mb-6 capitalize"
           >
@@ -130,7 +130,7 @@ const drop = ref(false);
             <PaypalButton />
           </div>
         </div>
-        <div class="product rounded-lg shadow-lg p-6" v-else>
+        <div class="product rounded-lg p-6" v-else>
           <h1
             class="relative text-sm text-gray-500 font-medium flex justify-between mb-6 capitalize"
           >
@@ -273,7 +273,7 @@ const drop = ref(false);
     .product {
       width: 650px;
       background: white;
-      box-shadow: 0 0 20px 1px rgb(199, 199, 199);
+      //box-shadow: 0 0 20px 1px rgb(199, 199, 199);
       img {
         width: 100px;
         height: auto;

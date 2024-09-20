@@ -29,7 +29,9 @@
         >
           <i class="fa-solid fa-link mr-2"></i>
           <span>view media handles</span>
-          <div class="flex justity-center items-center gap-2 text-xl m-auto">
+          <div
+            class="w-full flex justity-center items-center gap-2 text-xl m-auto"
+          >
             <i class="fa-brands fa-facebook"></i>
             <i class="fa-brands fa-youtube"></i>
             <i class="fa-brands fa-twitter"></i>

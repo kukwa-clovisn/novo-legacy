@@ -34,7 +34,7 @@ if (process.client) {
         >
       </div>
       <button class="show-sm" @click="($event) => (showMenuBar = !showMenuBar)">
-        <i class="fa-solid fa-bars mr-3"></i>
+        <i class="fa-solid fa-bars-staggered mr-3"></i>
       </button>
     </div>
   </header>
