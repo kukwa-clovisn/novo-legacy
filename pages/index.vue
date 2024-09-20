@@ -70,7 +70,7 @@ main {
 
     .landing-page-wrapper {
       width: 100%;
-      height: fit-content;
+      min-height: 70vh;
       margin: auto;
       display: flex;
       justify-content: center;
