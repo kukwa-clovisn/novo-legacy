@@ -1,0 +1,31 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@element-plus/nuxt": "^1.0.10",
+    "@nuxt/ui": "^2.18.4",
+    "aos": "^2.3.4",
+    "bcrypt": "^5.1.1",
+    "element-plus": "^2.8.1",
+    "jsonwebtoken": "^9.0.2",
+    "nuxt": "^3.13.0",
+    "nuxt-mongoose": "^1.0.6",
+    "vue": "latest"
+  },
+  "devDependencies": {
+    "@sidebase/nuxt-auth": "^0.9.1",
+    "next-auth": "^4.21.1",
+    "nodemailer": "^6.9.15",
+    "nuxt-nodemailer": "^1.1.2",
+    "nuxt-paypal": "^0.0.1-beta",
+    "sass": "^1.77.8"
+  }
+}

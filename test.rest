@@ -1,0 +1,13 @@
+POST  http://localhost:3000/api/user
+Content-Type: application/json
+
+{
+     "name": "codingherald",
+     "password": "klafd",
+     "email": "codingherald@gmail.com"
+}
+
+
+###
+
+GET http://localhost:3000/api/users
