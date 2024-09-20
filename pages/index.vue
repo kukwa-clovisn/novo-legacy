@@ -32,7 +32,7 @@
     <courseOutline />
     <pricing />
 
-    <div class="mission-container">
+    <div class="mission-container" id="mission">
       <div class="wrapper">
         <h1 class="text-gray-700 font-bold" data-aos="slide-up">our mission</h1>
         <p data-aos="slide-up">
@@ -47,7 +47,7 @@
         </p>
       </div>
     </div>
-
+    <Testimonials />
     <contact />
   </main>
 </template>

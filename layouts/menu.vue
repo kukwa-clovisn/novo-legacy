@@ -11,9 +11,9 @@ const showMenuBar = showMenu();
 
     <div class="menu-items flex flex-no-wrap">
       <div
-        class="w-64 sm:relative bg-gray-800 shadow md:h-full flex-col justify-between hidden sm:flex"
+        class="menu-lg sm:relative bg-gray-800 shadow md:h-full flex-col justify-between hidden sm:flex"
       >
-        <div class="px-8">
+        <div>
           <div class="h-25 w-full flex items-center justify-start">
             <img
               src="/novo-logo-small-transparent.png"
@@ -158,13 +158,9 @@ const showMenuBar = showMenu();
       <div
         class="menu-sm w-64 h-full relative z-40 bg-gray-800 shadow md:h-fullflex flex-col justify-between sm:hidden transition duration-150 ease-in-out"
       >
-        <div class="px-8">
-          <div class="h-25 w-full flex items-center justify-start">
-            <img
-              src="/novo-logo-small-transparent.png"
-              class="w-13 h-13"
-              alt="NOVO LEGACY"
-            />
+        <div>
+          <div class="h-25 w-full flex items-center justify-center">
+            <img src="/novo-logo-small-transparent.png" alt="NOVO LEGACY" />
           </div>
           <ul class="mt-12" @click="($event) => (showMenuBar = false)">
             <li
@@ -173,27 +169,9 @@ const showMenuBar = showMenu();
             >
               <nuxt-link
                 to="/"
-                href="/"
                 class="flex items-center focus:outline-none focus:ring-2 focus:ring-white"
               >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="icon icon-tabler icon-tabler-grid"
-                  width="18"
-                  height="18"
-                  viewBox="0 0 24 24"
-                  stroke-width="1.5"
-                  stroke="currentColor"
-                  fill="none"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                >
-                  <path stroke="none" d="M0 0h24v24H0z"></path>
-                  <rect x="4" y="4" width="6" height="6" rx="1"></rect>
-                  <rect x="14" y="4" width="6" height="6" rx="1"></rect>
-                  <rect x="4" y="14" width="6" height="6" rx="1"></rect>
-                  <rect x="14" y="14" width="6" height="6" rx="1"></rect>
-                </svg>
+                <i class="fa-solid fa-home"></i>
                 <span class="text-sm ml-2">Home</span>
               </nuxt-link>
               <div
@@ -209,7 +187,7 @@ const showMenuBar = showMenu();
               <a
                 href="/#mission"
                 class="flex items-center focus:outline-none focus:ring-2 focus:ring-white"
-              >
+                ><i class="fa-solid fa-person"></i>
                 <span class="text-sm ml-2">about</span>
               </a>
               <div
@@ -243,23 +221,7 @@ const showMenuBar = showMenu();
                 to="/store"
                 class="flex items-center focus:outline-none focus:ring-2 focus:ring-white"
               >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="icon icon-tabler icon-tabler-puzzle"
-                  width="18"
-                  height="18"
-                  viewBox="0 0 24 24"
-                  stroke-width="1.5"
-                  stroke="currentColor"
-                  fill="none"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                >
-                  <path stroke="none" d="M0 0h24v24H0z"></path>
-                  <path
-                    d="M4 7h3a1 1 0 0 0 1 -1v-1a2 2 0 0 1 4 0v1a1 1 0 0 0 1 1h3a1 1 0 0 1 1 1v3a1 1 0 0 0 1 1h1a2 2 0 0 1 0 4h-1a1 1 0 0 0 -1 1v3a1 1 0 0 1 -1 1h-3a1 1 0 0 1 -1 -1v-1a2 2 0 0 0 -4 0v1a1 1 0 0 1 -1 1h-3a1 1 0 0 1 -1 -1v-3a1 1 0 0 1 1 -1h1a2 2 0 0 0 0 -4h-1a1 1 0 0 1 -1 -1v-3a1 1 0 0 1 1 -1"
-                  ></path>
-                </svg>
+                <i class="fa-solid fa-store"></i>
                 <span class="text-sm ml-2">Store</span>
               </nuxt-link>
               <div
@@ -323,14 +285,49 @@ const showMenuBar = showMenu();
   .menu-items {
     height: 100vh;
     overflow: hidden;
-
     position: fixed;
     top: 0;
     left: 0;
     z-index: 1;
 
-    @media screen and (max-width: 450px) {
+    .menu-lg {
+      width: 45vw;
+    }
+
+    img {
+      height: 200px;
+      width: auto;
+    }
+
+    ul {
+      width: 100%;
+      height: fit-content;
+      li {
+        padding: 20px;
+        min-height: 70px;
+        margin: 0;
+        border-top: 1px solid rgb(37, 60, 95);
+        a {
+          display: flex;
+          height: 100%;
+          i,
+          span {
+            font-size: 25px;
+            text-transform: capitalize;
+          }
+        }
+        div i {
+          font-size: 21px;
+        }
+      }
+    }
+
+    @media screen and (max-width: 768px) {
       width: 100vw;
+
+      .menu-sm {
+        width: 100vw;
+      }
     }
   }
 }

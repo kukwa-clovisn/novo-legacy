@@ -13,36 +13,46 @@
         >
           <div class="flex-grow pl-6">
             <ul>
-              <li>My analysis including my entry and exit points.</li>
-              <li>Live stream records, for playback if needed to.</li>
-              <li>
+              <li data-aos="slide-up">
+                My analysis including my entry and exit points.
+              </li>
+              <li data-aos="slide-up">
+                Live stream records, for playback if needed to.
+              </li>
+              <li data-aos="slide-up">
                 Exclusive private discord community with like minded traders.
               </li>
-              <li>
+              <li data-aos="slide-up">
                 Private videos sent out to you, explaining of a specific topic
                 you inquire or might struggle with.
               </li>
-              <li>Back test sessions.</li>
+              <li data-aos="slide-up">Back test sessions.</li>
 
-              <li>Live trades.</li>
+              <li data-aos="slide-up">Live trades.</li>
 
-              <li>Daily signals.</li>
+              <li data-aos="slide-up">Daily signals.</li>
 
-              <li>Weekly trade reviews.</li>
+              <li data-aos="slide-up">Weekly trade reviews.</li>
 
-              <li>Group zoom calls (Weekly analysis calls).</li>
-              <li>
+              <li data-aos="slide-up">
+                Group zoom calls (Weekly analysis calls).
+              </li>
+              <li data-aos="slide-up">
                 You get to learn both my winning trade strategies which I've
                 developed.
               </li>
-              <li>You will be allocated with an accountabiliy coach</li>
+              <li data-aos="slide-up">
+                You will be allocated with an accountabiliy coach
+              </li>
 
-              <li>
+              <li data-aos="slide-up">
                 Course content, that includes everything you need to know to
                 become a profitable trader.
               </li>
 
-              <li>24/7 support, to guide you on your trading journey.</li>
+              <li data-aos="slide-up">
+                24/7 support, to guide you on your trading journey.
+              </li>
             </ul>
           </div>
         </div>
