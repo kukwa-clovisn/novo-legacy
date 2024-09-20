@@ -185,14 +185,16 @@
           a {
             width: max-content;
             padding: 15px 23px;
-            background: rgb(20, 20, 20);
+            background: rgb(221, 221, 221);
             text-transform: uppercase;
             font-size: 12px;
             border-radius: 2px;
+            color: black;
           }
           span,
           h2 {
             text-align: left;
+            color: black;
           }
         }
       }
