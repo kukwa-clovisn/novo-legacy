@@ -159,7 +159,7 @@
         display: flex;
         justify-content: flex-start;
         background: white;
-        box-shadow: 0 0 10px 1px rgb(249, 254, 255);
+        box-shadow: 0 0 3px 1px rgb(184, 184, 184);
 
         .img {
           width: 30%;

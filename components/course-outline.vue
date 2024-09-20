@@ -70,9 +70,10 @@
         font-weight: 700;
       }
       ul {
-        width: 100%;
+        width: 90%;
         height: fit-content;
         list-style-type: circle;
+        margin: auto;
 
         li {
           padding: 10px;
