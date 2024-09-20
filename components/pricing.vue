@@ -1,8 +1,6 @@
 <template>
   <div class="pricing-container">
-    <section
-      class="bg-white pt-20 lg:pt-[120px] pb-12 lg:pb-[90px] relative overflow-hidden"
-    >
+    <section class="bg-white pt-20 lg:pt-[120px] pb-12 lg:pb-[90px] relative">
       <div class="container">
         <div class="flex flex-wrap -mx-4">
           <div class="w-full px-4">
@@ -15,7 +13,7 @@
               </span>
               <h2
                 data-aos="slide-up"
-                class="font-bold text-3xl text-gray-900 sm:text-4xl md:text-[40px] mb-4"
+                class="font-bold text-3xl text-gray-900 sm:text-4xl mb-4"
               >
                 Our Pricing Plan
               </h2>
@@ -35,14 +33,16 @@
               <span class="text-gray font-bold block mb-4">
                 NOVO VIP MEMBERSHIP
               </span>
-              <h2 class="font-bold text-dark mb-5 text-[32px]">
+              <h2 class="font-bold text-dark mb-5">
                 $449.00
                 <span class="text-base text-body-color font-medium">
                   / year
                 </span>
               </h2>
 
-              <nuxt-link to="/store" class="bg-gray-200"> buy now </nuxt-link>
+              <nuxt-link to="/store" class="bg-gray-200">
+                enroll now
+              </nuxt-link>
               <div>
                 <span class="absolute right-0 top-7">
                   <svg
@@ -85,16 +85,16 @@
               >
                 NOVO legacy pack membership
               </span>
-              <h2 class="font-bold text-white mb-5 text-[42px]">
+              <h2 class="font-bold text-white mb-5">
                 $70.00
                 <span
-                  class="text-gray-200 text-[15px] capilatize text-body-color font-medium"
+                  class="text-gray-200 capilatize text-body-color font-medium"
                 >
                   / month
                 </span>
               </h2>
 
-              <nuxt-link to="/store"> buy now </nuxt-link>
+              <nuxt-link to="/store"> enroll now </nuxt-link>
               <div>
                 <span class="absolute right-0 top-7">
                   <svg
@@ -152,18 +152,18 @@
         width: 90%;
         height: 230px;
         border: none;
-        border-radius: 3px;
+        border-radius: 9px;
         padding: 0px;
         margin: 20px auto;
         overflow: hidden;
         display: flex;
         justify-content: flex-start;
         background: white;
-        box-shadow: 0 0 3px 1px rgb(184, 184, 184);
+        box-shadow: 0 0 100px 1px rgb(184, 184, 184);
 
         .img {
           width: 30%;
-          height: 220px;
+          height: 230px;
           background: black;
           display: flex;
           justify-content: center;
@@ -185,7 +185,7 @@
           a {
             width: max-content;
             padding: 15px 23px;
-            background: rgb(221, 221, 221);
+            background: rgb(68, 182, 248);
             text-transform: uppercase;
             font-size: 12px;
             border-radius: 2px;
@@ -195,12 +195,17 @@
           span,
           h2 {
             text-align: left;
-            color: black;
+            color: rgb(0, 14, 22);
           }
 
           h2 {
             font-weight: 500;
             color: rgb(58, 58, 58);
+            font-size: 25px;
+
+            span {
+              font-size: 13px;
+            }
           }
         }
 

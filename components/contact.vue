@@ -56,7 +56,7 @@
 <style lang="scss" scoped>
 .contact-container {
   width: 100%;
-  min-height: 60vh;
+  min-height: 40vh;
   display: flex;
   justify-content: center;
   align-items: center;
