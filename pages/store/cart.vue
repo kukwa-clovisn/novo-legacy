@@ -10,11 +10,6 @@ const cart_items = ref([
     title: "Novo legacy vip monthly membership",
     price: 70,
   },
-  {
-    id: 3,
-    title: "Novo legacy vip monthly membership",
-    price: 100,
-  },
 ]);
 
 const tPrice = ref(0);
@@ -43,24 +38,27 @@ onMounted(() => {
             alt="Product Image"
           />
           <div class="ml-3">
-            <h3 class="text-gray-900 font-semibold">{{ item.title }}</h3>
+            <h3 class="text-gray-900 font-semibold text-sm">
+              {{ item.title }}
+            </h3>
             <p class="text-gray-700 mt-1">${{ item.price }}</p>
           </div>
           <button
+            @click="($event) => navigateTo('/store')"
             class="ml-auto py-2 px-4 bg-blue-500 hover:bg-blue-600 text-white rounded-lg"
           >
-            Remove
+            Enroll
           </button>
         </div>
       </div>
-      <div class="flex items-center justify-between px-6 py-3 bg-gray-100">
+      <!-- <div class="flex items-center justify-between px-6 py-3 bg-gray-100">
         <h3 class="text-gray-900 font-semibold">Total: ${{ tPrice }}</h3>
         <button
           class="py-2 px-4 bg-blue-500 hover:bg-blue-600 text-white rounded-lg"
         >
           Checkout
         </button>
-      </div>
+      </div> -->
     </div>
   </div>
 </template>

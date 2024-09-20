@@ -12,11 +12,11 @@
               game. Beginner or experienced, start your journey.
             </p>
             <div class="hero-buttons">
-              <nuxt-link to="/" data-aos="zoom-out"
+              <nuxt-link to="/#pricing" data-aos="zoom-out"
                 >mentorship plans <i class="fa-solid fa-arrow-down ml-2"></i
               ></nuxt-link>
-              <nuxt-link to="/" data-aos="zoom-out"
-                >get started<i class="fa-solid fa-arrow-down ml-2"></i
+              <nuxt-link to="/store" data-aos="zoom-out"
+                >store<i class="fa-solid fa-store ml-2"></i
               ></nuxt-link>
             </div>
           </div>

@@ -1,12 +1,12 @@
 <template>
-  <div class="pricing-container">
+  <div class="pricing-container" id="pricing">
     <section class="bg-white pt-20 pb-12 relative">
       <div class="container">
         <div class="flex flex-wrap -mx-4">
           <div class="w-full px-4">
             <div class="text-center mx-auto">
               <span
-                class="font-semibold text-lg text-blue-500 mb-2 block"
+                class="font-semibold text-lg text-gray-500 mb-2 block"
                 data-aos="zoom-out"
               >
                 Pricing Table
