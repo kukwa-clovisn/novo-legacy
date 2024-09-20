@@ -15,7 +15,7 @@
               </span>
               <h2
                 data-aos="slide-up"
-                class="font-bold text-3xl text-yellow-500 sm:text-4xl md:text-[40px] mb-4"
+                class="font-bold text-3xl text-gray-900 sm:text-4xl md:text-[40px] mb-4"
               >
                 Our Pricing Plan
               </h2>
@@ -26,7 +26,7 @@
             </div>
           </div>
         </div>
-        <div class="items-div flex flex-wrap justify-center">
+        <div class="items-div">
           <div class="item bg-white" data-aos="slide-right">
             <div class="img" data-aos="fade-in">
               <img src="/novo-logo.jpg" alt="NOVO LEGACY" />
@@ -35,7 +35,7 @@
               <span class="text-gray font-bold block mb-4">
                 NOVO VIP MEMBERSHIP
               </span>
-              <h2 class="font-bold text-dark mb-5 text-[42px]">
+              <h2 class="font-bold text-dark mb-5 text-[32px]">
                 $449.00
                 <span class="text-base text-body-color font-medium">
                   / year
@@ -140,24 +140,27 @@
   height: fit-content;
 
   section {
-    width: 90%;
+    width: 70%;
     margin: auto;
 
     .items-div {
-      width: max-content;
+      width: 100%;
       height: fit-content;
       padding: 0;
       margin: auto;
       .item {
-        width: 350px;
-        height: 470px;
+        width: 100%;
+        height: 200px;
         border: none;
         border-radius: 12px;
         padding: 0px;
+        margin: 20px auto;
         overflow: hidden;
+        display: flex;
+        justify-content: flex-start;
 
         .img {
-          width: 100%;
+          width: 30%;
           height: 220px;
           background: black;
           display: flex;
@@ -165,7 +168,7 @@
           align-items: center;
 
           img {
-            width: 100%;
+            width: auto;
             height: 100%;
             object-fit: contain;
           }
@@ -173,6 +176,10 @@
 
         .relative {
           padding: 40px 20px;
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
+          flex-direction: column;
           a {
             width: max-content;
             padding: 15px 23px;
@@ -180,6 +187,10 @@
             text-transform: uppercase;
             font-size: 12px;
             border-radius: 2px;
+          }
+          span,
+          h2 {
+            text-align: left;
           }
         }
 
