@@ -180,7 +180,7 @@
           padding: 40px 20px;
           display: flex;
           justify-content: flex-start;
-          align-items: center;
+          align-items: flex-start;
           flex-direction: column;
           a {
             width: max-content;
@@ -190,14 +190,33 @@
             font-size: 12px;
             border-radius: 2px;
             color: black;
+            margin: 0;
           }
           span,
           h2 {
             text-align: left;
             color: black;
           }
+
+          h2 {
+            font-weight: 500;
+            color: rgb(58, 58, 58);
+          }
+        }
+
+        @media screen and (max-width: 650px) {
+          .img {
+            width: 40%;
+          }
+          .relative {
+            width: 60%;
+          }
         }
       }
+    }
+
+    @media screen and (max-width: 768px) {
+      width: 90%;
     }
   }
 }
