@@ -97,9 +97,11 @@ const showMenuBar = showMenu();
   width: 100vw;
   height: 100vh;
   position: fixed;
-  top: 0;
+  bottom: 0;
+  margin: 0;
+  padding: 0;
   left: 0;
-  z-index: 1;
+  z-index: 1 !important;
   overflow: hidden;
 
   .blur-wrapper {

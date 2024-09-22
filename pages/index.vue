@@ -1,34 +1,5 @@
 <template>
   <main>
-    <!-- <div class="landing-page">
-      <div class="landing-page-wrapper">
-        <div class="blur-wrapper"></div>
-        <div class="hero">
-          <div class="hero-wrapper">
-            <h1>novo legacy</h1>
-            <p>
-              Welcome to Nova legacy website. We aim to provide the best
-              possible services for traders who wants to upskill their trading
-              game. Beginner or experienced, start your journey.
-            </p>
-            <div class="hero-buttons">
-              <nuxt-link to="/#pricing" data-aos="zoom-out"
-                >mentorship plans
-                <i class="fa-brands fa-accessible-icon ml-1"></i
-              ></nuxt-link>
-              <nuxt-link to="/store" data-aos="zoom-out"
-                >store<i class="fa-solid fa-store ml-1"></i
-              ></nuxt-link>
-            </div>
-          </div>
-        </div>
-        <div class="hero-section">
-          <div class="wrapper">
-            <img src="/novo-logo-transparent.png" alt="" />
-          </div>
-        </div>
-      </div>
-    </div> -->
     <LandingPage />
     <chart />
     <About />
@@ -148,7 +119,6 @@ main {
     width: 100%;
     min-height: 50vh;
     margin: 20px auto;
-    // background: rgb(56, 182, 255);
 
     .wrapper {
       width: 80%;
