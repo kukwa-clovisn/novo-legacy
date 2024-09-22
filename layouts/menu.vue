@@ -11,7 +11,7 @@ const showMenuBar = showMenu();
 
     <div class="flex bg-white flex-col justify-between w-64 h-full bg-white">
       <div
-        class="relative flex flex-col items-center justify-center h-1/4"
+        class="logo relative flex flex-col items-center justify-center h-1/4"
         @click="($event) => (navigateTo('/'), (showMenuBar = false))"
       >
         <button class="p-2 absolute right-2 top-1">
@@ -25,7 +25,7 @@ const showMenuBar = showMenu();
         />
         <h1 class="text-center uppercase font-bold py-3">&copy;novo legacy</h1>
       </div>
-      <div class="bg-gray-200 flex flex-col flex-1 overflow-y-auto">
+      <div class="menu-items bg-gray-200 flex flex-col flex-1 overflow-y-auto">
         <nav class="flex-1 px-2 py-4">
           <nuxt-link
             to="/"
@@ -80,7 +80,7 @@ const showMenuBar = showMenu();
           </nuxt-link>
         </nav>
       </div>
-      <div>
+      <div class="link">
         <a
           @click="($event) => (showMenuBar = false)"
           class="text-gray-700 text-center capitalize py-3 w-full flex items-center justify-center text-sm"
@@ -106,9 +106,24 @@ const showMenuBar = showMenu();
     cursor: pointer;
   }
 
+  .logo {
+    height: 25vh;
+  }
+  .menu-items {
+    height: 65vh;
+  }
+
+  .link {
+    height: 10vh;
+  }
+
   @media screen and (max-width: 500px) {
     .w-64 {
       width: 100%;
+
+      nav a {
+        font-size: 15px;
+      }
     }
   }
 }

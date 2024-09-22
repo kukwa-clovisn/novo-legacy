@@ -37,7 +37,7 @@
                 </nuxt-link>
                 <nuxt-link
                   data-aos="zoom-out"
-                  to="/membership"
+                  to="/#contact"
                   class="bg-gray-900 lg:ml-5 text-white text-sm font-light px-7 py-3 rounded shadow capitalize"
                   ><i class="fa-solid fa-phone mr-1"></i>
                   contact us
