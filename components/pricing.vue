@@ -3,6 +3,7 @@
     <div class="flex flex-col text-center w-full my-8">
       <div class="w-40 mx-auto">
         <h2
+          data-aos="fade-up"
           class="font-heading mb-4 bg-orange-100 text-orange-800 px-4 py-2 rounded-lg md:w-36 md:mx-auto text-xs font-semibold tracking-widest uppercase title-font"
         >
           Pricing
@@ -10,19 +11,23 @@
       </div>
 
       <h1
+        data-aos="fade-up"
         class="sm:text-4xl text-3xl font-medium title-font mb-2 text-gray-900 capitalize"
       >
         cheapest pricing you'll find for quality
       </h1>
 
-      <p class="lg:w-2/3 mx-auto leading-relaxed text-base text-gray-500">
+      <p
+        class="lg:w-2/3 mx-auto leading-relaxed text-base text-gray-500"
+        data-aos="fade-up"
+      >
         Get the best for the cheapest price ever.
       </p>
     </div>
 
     <div class="flex flex-wrap justify-center items-center">
       <!-- card:1 -->
-      <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
+      <div class="p-4 xl:w-1/4 md:w-1/2 w-full" data-aos="fade-up">
         <div
           class="h-full p-6 rounded-lg border-2 border-gray-300 flex flex-col relative overflow-hidden"
         >
@@ -107,7 +112,7 @@
       </div>
 
       <!-- card:2 -->
-      <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
+      <div class="p-4 xl:w-1/4 md:w-1/2 w-full" data-aos="fade-up">
         <div
           class="h-full p-6 rounded-lg border-2 border-orange-500 flex flex-col relative overflow-hidden"
         >

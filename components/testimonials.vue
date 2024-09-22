@@ -1,9 +1,12 @@
 <template>
   <div class="testimonials">
-    <h1 class="text-center text-6xl font-extrabold py-6 px-2 capitalize">
+    <h1
+      class="text-center text-6xl font-extrabold py-6 px-2 capitalize"
+      data-aos="slide-up"
+    >
       testimonials
     </h1>
-    <p class="text-center text-sm font-medium">
+    <p class="text-center text-sm font-medium" data-aos="slide-up">
       Find out what some of our students have to say about our mentorship
     </p>
     <div

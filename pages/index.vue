@@ -9,13 +9,14 @@
     <pricing />
 
     <div class="mission-container bg-orange-300" id="mission">
-      <div class="wrapper">
+      <div class="wrapper" data-aos="slide-left">
         <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <div
             class="mt-12 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3"
           >
             <div>
               <div
+                data-aos="zoom-out"
                 class="flex items-center justify-center h-12 w-12 rounded-md bg-orange-400 text-white"
               >
                 <svg
@@ -43,6 +44,7 @@
             </div>
             <div>
               <div
+                data-aos="zoom-out"
                 class="flex items-center justify-center h-12 w-12 rounded-md bg-orange-400 text-white"
               >
                 <svg
@@ -70,6 +72,7 @@
             </div>
             <div>
               <div
+                data-aos="zoom-out"
                 class="flex items-center justify-center h-12 w-12 rounded-md bg-orange-400 text-white"
               >
                 <svg

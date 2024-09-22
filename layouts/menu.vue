@@ -125,6 +125,7 @@ const showMenuBar = showMenu();
 
       nav a {
         font-size: 19px;
+        padding: 10px auto;
       }
     }
   }

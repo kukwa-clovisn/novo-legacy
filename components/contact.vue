@@ -1,7 +1,7 @@
 <template>
   <div class="contact-container" id="contact">
     <div class="contact-wrapper">
-      <h1
+      <h1 data-aos="zoom-out"
         class="text-4xl sm:text-5xl text-green-600 dark:text-white font-extrabold tracking-tight"
       >
         Get in touch
@@ -17,7 +17,7 @@
         "
         alt=""
       />
-      <p class="text-normal font-light text-gray-600 dark:text-gray-600 py-2">
+      <p class="text-normal font-light text-gray-600 dark:text-gray-600 py-2" data-aos="zoom-out">
         check us on social media.
       </p>
 

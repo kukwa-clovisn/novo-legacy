@@ -7,12 +7,14 @@
       class="mx-auto flex max-w-[58rem] flex-col items-center space-y-4 text-center"
     >
       <h2
+        data-aos="zoom-out"
         class="font-bold text-3xl leading-[1.1] sm:text-3xl md:text-6xl text-orange-500"
       >
         Features
       </h2>
 
       <p
+        data-aos="slide-up"
         class="max-w-[85%] leading-normal text-muted-foreground sm:text-lg sm:leading-7"
       >
         The product can personalize user experiences by understanding individual
@@ -25,10 +27,11 @@
       class="mx-auto grid justify-center gap-4 sm:grid-cols-2 md:max-w-[64rem] md:grid-cols-3"
     >
       <div
+        data-aos="zoom-in"
         class="relative overflow-hidden rounded-lg border bg-white select-none hover:shadow hover:shadow-teal-200 p-2"
       >
         <div class="flex h-[180px] flex-col justify-between rounded-md p-6">
-          <div class="flex justify-start items-center gap-3">
+          <div class="flex justify-start items-center gap-3" data-aos="zoom-in">
             <i
               class="fa-solid fa-star text-orange-500"
               v-for="i in 5"
@@ -47,6 +50,7 @@
       </div>
 
       <div
+        data-aos="zoom-in"
         class="relative overflow-hidden rounded-lg border bg-white select-none hover:shadow hover:shadow-teal-200 p-2"
       >
         <div class="flex h-[180px] flex-col justify-between rounded-md p-6">
@@ -68,6 +72,7 @@
       </div>
 
       <div
+        data-aos="zoom-in"
         class="relative overflow-hidden rounded-lg border bg-white select-none hover:shadow hover:shadow-teal-200 p-2"
       >
         <div class="flex h-[180px] flex-col justify-between rounded-md p-6">
@@ -89,6 +94,7 @@
       </div>
 
       <div
+        data-aos="zoom-in"
         class="relative overflow-hidden rounded-lg border bg-white select-none hover:shadow hover:shadow-teal-200 p-2"
       >
         <div class="flex h-[180px] flex-col justify-between rounded-md p-6">
