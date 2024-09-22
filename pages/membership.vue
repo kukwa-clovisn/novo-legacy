@@ -44,7 +44,7 @@ onMounted(() => {
             <p class="text-gray-700 mt-1">${{ item.price }}</p>
           </div>
           <button
-            @click="($event) => navigateTo('/store')"
+            @click="($event) => navigateTo('/checkout')"
             class="ml-auto py-2 px-4 bg-blue-500 hover:bg-blue-600 text-white rounded-lg"
           >
             Enroll
