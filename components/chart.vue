@@ -46,7 +46,7 @@
         The last opportunity you had has was yesterday, the next is now...
         <nuxt-link
           data-aos="slide-up"
-          to="/membership"
+          to="/checkout"
           class="bg-gray-900 text-white w-fit px-7 py-3 mt-6 m-auto flex items-center justify-center cursor-pointer rounded uppercase font-medium"
           >start now <i class="fa-solid fa-pointer"></i
         ></nuxt-link>

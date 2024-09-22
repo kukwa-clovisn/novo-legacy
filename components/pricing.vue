@@ -87,6 +87,7 @@
             >vip inner circle
           </p>
           <button
+            @click="($event) => navigateTo('/checkout')"
             class="flex items-center mt-auto text-white bg-gray-400 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-500 rounded"
           >
             enroll now
@@ -194,6 +195,7 @@
             >yearly bonuses/giveaways
           </p>
           <button
+            @click="($event) => navigateTo('/checkout')"
             class="flex items-center mt-auto text-white bg-orange-500 border-0 py-2 px-4 w-full focus:outline-none hover:bg-orange-600 rounded"
           >
             enroll now

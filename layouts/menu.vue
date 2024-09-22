@@ -124,7 +124,7 @@ const showMenuBar = showMenu();
       width: 100%;
 
       nav a {
-        font-size: 15px;
+        font-size: 19px;
       }
     }
   }
