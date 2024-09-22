@@ -23,8 +23,11 @@ if (process.client) {
         ></i>
         <i class="x-sm fa-solid fa-align-right p-2 text-gray-900 text-3xl"></i>
       </button>
-      <h1 class="text-xl uppercase font-bold">
-        novo <span class="text-orange-500">legacy</span>.
+      <h1
+        class="text-xl uppercase font-bold cursor-pointer"
+        @click="($event) => navigateTo('/')"
+      >
+        -_-novo <span class="text-orange-500">legacy-_-</span>
       </h1>
 
       <div
