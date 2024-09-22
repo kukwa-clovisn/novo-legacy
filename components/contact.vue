@@ -25,7 +25,7 @@
         <a
           href="https://linktr.ee/novolegacy"
           target="_blank"
-          class="text-blue-500 hover:text-gray-500 capitalize"
+          class="text-orange-600 hover:text-gray-500 capitalize"
         >
           <i class="fa-solid fa-link mr-2"></i>
           <span>view media handles</span>
