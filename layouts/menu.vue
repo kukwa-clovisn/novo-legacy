@@ -9,116 +9,84 @@ const showMenuBar = showMenu();
       @click="($event) => (showMenuBar = !showMenuBar)"
     ></div>
 
-    <div class="menu-items flex flex-no-wrap">
+    <div class="flex bg-white flex-col justify-between w-64 h-full bg-white">
       <div
-        class="menu menu-lg sm:relative bg-gray-800 shadow md:h-full flex-col justify-between sm:flex"
+        class="relative flex flex-col items-center justify-center h-1/4"
+        @click="($event) => (navigateTo('/'), (showMenuBar = false))"
       >
-        <div
-          @click="($event) => (navigateTo('/'), (showMenuBar = false))"
-          class="logo w-full flex items-center justify-start border-b border-gray-700"
-        >
-          <img
-            src="/novo-logo-small-transparent.png"
-            alt="NOVO LEGACY"
-            class="cursor-pointer"
-          />
-        </div>
-        <nav @click="($event) => (showMenuBar = false)">
-          <nuxt-link to="/" class="flex items-center">
-            <i class="fa-solid fa-home"></i>
+        <button class="p-2 absolute right-2 top-1">
+          <i class="fa-solid fa-xmark text-2xl text-gray-400"></i>
+        </button>
+        <img
+          src="/novo-logo.jpg"
+          style="height: 60%; width: auto; object-fit: contain; margin: auto"
+          alt="Novo Legacy"
+          class="rounded-full"
+        />
+        <h1 class="text-center uppercase font-bold py-3">&copy;novo legacy</h1>
+      </div>
+      <div class="bg-gray-200 flex flex-col flex-1 overflow-y-auto">
+        <nav class="flex-1 px-2 py-4">
+          <nuxt-link
+            to="/"
+            @click="($event) => (showMenuBar = false)"
+            class="flex items-center gap-3 px-4 py-3 capitalize text-gray-800 hover:border-l-[5px] hover:border-orange-500 hover:text-orange-500 hover:font-bold"
+          >
+            <i class="fa-solid fa-home text-gray-600"></i>
             home
           </nuxt-link>
+          <nuxt-link
+            @click="($event) => (showMenuBar = false)"
+            to="/#pricing"
+            class="flex items-center gap-3 px-4 py-3 capitalize text-gray-800 hover:border-l-[5px] hover:border-orange-500 hover:text-orange-500 hover:font-bold"
+          >
+            <i class="fa-solid fa-tags text-gray-600"></i>
 
-          <nuxt-link to="/#mission" class="flex items-center">
-            <i class="fa-solid fa-person"></i>
+            pricing
+          </nuxt-link>
+          <nuxt-link
+            @click="($event) => (showMenuBar = false)"
+            to="/#about"
+            class="flex items-center gap-3 px-4 py-3 capitalize text-gray-800 hover:border-l-[5px] hover:border-orange-500 hover:text-orange-500 hover:font-bold"
+          >
+            <i class="fa-solid fa-quote-left text-gray-600"></i>
             about
           </nuxt-link>
-
-          <nuxt-link to="/#contacts" class="flex items-center">
-            <i class="fa-solid fa-phone"></i>
-            contact us
-          </nuxt-link>
-
-          <nuxt-link to="/store" class="flex items-center-2">
-            <i class="fa-solid fa-store"></i>
-            store
-          </nuxt-link>
-
-          <nuxt-link to="/store/membership" class="flex items-center"
-            ><i class="fa-brands fa-accessible-icon"></i>
+          <nuxt-link
+            @click="($event) => (showMenuBar = false)"
+            to="/membership"
+            class="flex items-center gap-3 px-4 py-3 capitalize text-gray-800 hover:border-l-[5px] hover:border-orange-500 hover:text-orange-500 hover:font-bold"
+          >
+            <i class="fa-brands fa-accessible-icon text-gray-600"></i>
             membership
           </nuxt-link>
-        </nav>
+          <nuxt-link
+            @click="($event) => (showMenuBar = false)"
+            to="/checkout"
+            class="flex items-center gap-3 px-4 py-3 capitalize text-gray-800 hover:border-l-[5px] hover:border-orange-500 hover:text-orange-500 hover:font-bold"
+          >
+            <i class="fa-solid fa-comments-dollar text-gray-600"></i>
 
-        <div class="link px-2 border-t border-gray-700">
-          <div class="w-full flex items-center justify-center bg-gray-800">
-            <span class="cursor-pointer text-white pt-5 pb-3">
-              <a
-                href="https://linktr.ee/novolegacy"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="capitalize text-sm text-gray-400"
-              >
-                <i class="fa-solid fa-link mr-2"></i> Media handles</a
-              >
-            </span>
-          </div>
-        </div>
+            checkout
+          </nuxt-link>
+
+          <nuxt-link
+            @click="($event) => (showMenuBar = false)"
+            to="/#contact"
+            class="flex items-center gap-3 px-4 py-3 capitalize text-gray-800 hover:border-l-[5px] hover:border-orange-500 hover:text-orange-500 hover:font-bold"
+          >
+            <i class="fa-solid fa-phone text-gray-600"></i>
+            contact us
+          </nuxt-link>
+        </nav>
       </div>
-      <div
-        class="menu menu-sm h-full relative z-40 bg-gray-800 md:h-full flex-col justify-between transition duration-150 ease-in-out border-5 border-red-600"
-      >
-        <div
-          @click="($event) => (navigateTo('/'), (showMenuBar = false))"
-          class="logo w-full flex items-center justify-center"
+      <div>
+        <a
+          @click="($event) => (showMenuBar = false)"
+          class="text-gray-700 text-center capitalize py-3 w-full flex items-center justify-center text-sm"
+          href="/"
+          ><i class="fa-solid fa-link mr-1"></i> media links</a
         >
-          <img
-            src="/novo-logo-small-transparent.png"
-            alt="NOVO LEGACY"
-            class="cursor-pointer"
-          />
-        </div>
-        <nav @click="($event) => (showMenuBar = false)">
-          <nuxt-link to="/" class="flex items-center">
-            <i class="fa-solid fa-home"></i>
-            Home
-          </nuxt-link>
-
-          <nuxt-link to="/#mission" class="flex items-center"
-            ><i class="fa-solid fa-person"></i>
-            about
-          </nuxt-link>
-
-          <nuxt-link to="/#contacts" class="flex items-center">
-            <i class="fa-solid fa-phone"></i>
-            contact us
-          </nuxt-link>
-
-          <nuxt-link to="/store" class="flex items-center">
-            <i class="fa-solid fa-store"></i>
-            Store
-          </nuxt-link>
-
-          <nuxt-link to="/store/membership" class="flex items-center">
-            <i class="fa-brands fa-accessible-icon"></i>
-            membership
-          </nuxt-link>
-        </nav>
-
-        <div class="link px-8 border-t border-gray-700">
-          <div class="w-full flex items-center justify-center bg-gray-800">
-            <span class="cursor-pointer text-white pt-5 pb-3">
-              <a
-                href="https://linktr.ee/novolegacy"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="capitalize text-sm text-gray-400"
-              >
-                <i class="fa-solid fa-link mr-2"></i> Media handles</a
-              >
-            </span>
-          </div>
-        </div>
       </div>
     </div>
   </div>
@@ -138,111 +106,9 @@ const showMenuBar = showMenu();
     cursor: pointer;
   }
 
-  .menu-items {
-    height: 100vh;
-    overflow: hidden;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 1;
-    padding: 0;
-
-    .menu {
-      height: 100vh;
-      .logo {
-        height: 25vh;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        box-shadow: 10px 9px 19px 3px white;
-
-        img {
-          height: 80%;
-          width: auto;
-          object-fit: contain;
-        }
-      }
-
-      nav {
-        width: 100%;
-        height: 65vh;
-        display: flex;
-        justify-content: flex-start;
-        align-items: flex-start;
-        flex-direction: column;
-        overflow: hidden;
-        overflow-y: scroll;
-        background: rgb(35, 45, 61);
-        padding-top: 20px;
-
-        a {
-          padding: 2px 10px;
-          padding-left: 35px;
-          display: flex;
-          justify-content: flex-start;
-          align-items: center;
-          gap: 12px;
-          width: 100%;
-          min-height: 65px;
-          color: white;
-          font-size: 16px;
-          text-transform: capitalize;
-          i {
-            min-width: 10%;
-
-            font-size: 27px;
-            text-transform: capitalize;
-            color: rgba(56, 182, 255, 0.632);
-          }
-        }
-      }
-      .link {
-        height: 10vh;
-      }
-    }
-
-    .menu-lg {
-      width: 27vw;
-      overflow: hidden;
-
-      @media screen and (max-width: 900px) {
-        width: 35vw;
-
-        @media screen and (max-width: 768px) {
-          width: 50vw;
-          @media screen and (max-width: 600px) {
-            width: 60vw;
-            @media screen and (max-width: 500px) {
-              width: 70vw;
-            }
-          }
-        }
-      }
-    }
-
-    .menu-sm {
-      display: none;
-    }
-
-    @media screen and (max-width: 400px) {
-      width: 100vw;
-      .menu-lg {
-        display: none;
-      }
-      .menu-sm {
-        width: 100vw;
-        display: flex;
-        justify-content: space-between;
-
-        nav a {
-          font-size: 19px;
-
-          i {
-            font-size: 25px;
-          }
-        }
-      }
+  @media screen and (max-width: 500px) {
+    .w-64 {
+      width: 100%;
     }
   }
 }

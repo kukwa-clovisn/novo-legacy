@@ -1,6 +1,6 @@
 <template>
   <main>
-    <div class="landing-page">
+    <!-- <div class="landing-page">
       <div class="landing-page-wrapper">
         <div class="blur-wrapper"></div>
         <div class="hero">
@@ -28,24 +28,109 @@
           </div>
         </div>
       </div>
-    </div>
-
-    <courseOutline />
+    </div> -->
+    <LandingPage />
+    <chart />
+    <About />
+    <Mission />
+    <Expect />
+    <Feature />
     <pricing />
 
-    <div class="mission-container" id="mission">
+    <div class="mission-container bg-orange-300" id="mission">
       <div class="wrapper">
-        <h1 class="text-gray-700 font-bold" data-aos="slide-up">our mission</h1>
-        <p data-aos="slide-up">
-          Our mission is to transform the trading experience through innovation,
-          expertise, and a client-first approach. <br />
-          We are dedicated to harnessing the power of advanced technology and
-          deep market insights to provide unparalleled trading solutions that
-          drive success and growth for our clients.<br /><br />
-          By prioritizing transparency, integrity, and personalized service, we
-          strive to empower our clients to make informed decisions and achieve
-          their financial goals with confidence and efficiency.
-        </p>
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div
+            class="mt-12 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3"
+          >
+            <div>
+              <div
+                class="flex items-center justify-center h-12 w-12 rounded-md bg-orange-400 text-white"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-6 h-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M12 21v-8.25M15.75 21v-8.25M8.25 21v-8.25M3 9l9-6 9 6m-1.5 12V10.332A48.36 48.36 0 0012 9.75c-2.551 0-5.056.2-7.5.582V21M3 21h18M12 6.75h.008v.008H12V6.75z"
+                  />
+                </svg>
+              </div>
+              <div class="mt-5">
+                <h3 class="text-lg font-bold text-gray-900">Mission</h3>
+                <p class="mt-2 text-gray-800 text-left">
+                  We aim to make the world a better place through innovation and
+                  collaboration.
+                </p>
+              </div>
+            </div>
+            <div>
+              <div
+                class="flex items-center justify-center h-12 w-12 rounded-md bg-orange-400 text-white"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-6 h-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M4.26 10.147a60.436 60.436 0 00-.491 6.347A48.627 48.627 0 0112 20.904a48.627 48.627 0 018.232-4.41 60.46 60.46 0 00-.491-6.347m-15.482 0a50.57 50.57 0 00-2.658-.813A59.905 59.905 0 0112 3.493a59.902 59.902 0 0110.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.697 50.697 0 0112 13.489a50.702 50.702 0 017.74-3.342M6.75 15a.75.75 0 100-1.5.75.75 0 000 1.5zm0 0v-3.675A55.378 55.378 0 0112 8.443m-7.007 11.55A5.981 5.981 0 006.75 15.75v-1.5"
+                  />
+                </svg>
+              </div>
+              <div class="mt-5">
+                <h3 class="text-lg font-bold text-gray-900">Values</h3>
+                <p class="mt-2 text-gray-800 text-left">
+                  We believe in honesty, integrity, and respect for all
+                  individuals.
+                </p>
+              </div>
+            </div>
+            <div>
+              <div
+                class="flex items-center justify-center h-12 w-12 rounded-md bg-orange-400 text-white"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-6 h-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z"
+                  />
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+                  />
+                </svg>
+              </div>
+              <div class="mt-5">
+                <h3 class="text-lg font-bold text-gray-900">Vision</h3>
+                <p class="mt-2 text-gray-800 text-left">
+                  We envision a world where trading is handled with mastery and
+                  professionalism.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     <Testimonials />
@@ -59,180 +144,11 @@ main {
   padding: 0;
   margin: 0;
 
-  .landing-page {
-    width: 100%;
-    height: fit-content;
-    background: linear-gradient(to right, rgb(9, 9, 9), rgb(56, 182, 255));
-    position: relative;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-
-    .landing-page-wrapper {
-      width: 100%;
-      min-height: 80vh;
-      margin: auto;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: row-reverse;
-      padding-top: 6vh;
-      position: relative;
-
-      .blur-wrapper {
-        display: none;
-      }
-
-      .hero {
-        width: 55%;
-        height: fit-content;
-        position: relative;
-        margin: 20px auto;
-
-        h1 {
-          font-size: 70px;
-          font-weight: 800;
-          text-transform: uppercase;
-          color: rgb(255, 255, 255);
-          text-align: center;
-          padding: 20px 0;
-          text-align: left;
-          font-family: "JetBrains Mono", "Poppins", sans-serif;
-
-          @media screen and (max-width: 1100px) {
-            font-size: 60px;
-            padding: 10px 0;
-
-            @media screen and (max-width: 925px) {
-              font-size: 50px;
-            }
-          }
-        }
-
-        P {
-          color: white;
-          width: 90%;
-
-          text-align: left;
-          padding: 10px 0;
-          font-size: 15px;
-          font-weight: 300;
-          margin-left: 0;
-          font-family: "Poppins", sans-serif;
-        }
-
-        .hero-buttons {
-          width: 100%;
-          display: flex;
-          justify-content: flex-start;
-          align-items: center;
-          flex-wrap: wrap;
-          gap: 30px;
-          margin: 20px auto;
-
-          a {
-            min-width: 200px;
-            height: 50px;
-            padding: 3px 15px;
-            color: rgb(19, 19, 19);
-            border-radius: 1px;
-            background: rgb(56, 182, 255);
-            text-transform: capitalize;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-family: 600;
-
-            i {
-              font-size: 23px;
-              color: rgb(9, 47, 62);
-            }
-
-            &:last-child {
-              background: white;
-            }
-
-            @media screen and (max-width: 886px) {
-              font-size: 15px;
-              min-width: 150px;
-            }
-          }
-        }
-      }
-      .hero-section {
-        width: 45%;
-        height: 100%;
-
-        .wrapper {
-          width: 100%;
-          height: fit-content;
-
-          img {
-            width: 100%;
-            height: auto;
-            margin: auto;
-          }
-        }
-      }
-
-      @media screen and (max-width: 881px) {
-        @media screen and (max-width: 768px) {
-          background: url("/novo-logo-transparent.png");
-          background-repeat: no-repeat;
-          background-attachment: fixed;
-          background-size: cover;
-          background-position: center, center;
-
-          .blur-wrapper {
-            display: block;
-            // opacity: 0.1;
-            background: linear-gradient(to bottom, transparent 30%, black 50%);
-          }
-
-          .hero-section {
-            display: none;
-          }
-          .hero {
-            width: 90%;
-
-            h1,
-            p {
-              text-align: center;
-            }
-
-            h1 {
-              font-size: 70px;
-              @media screen and (max-width: 575px) {
-                font-size: 40px;
-                @media screen and (max-width: 350px) {
-                  font-size: 30px;
-                }
-              }
-            }
-
-            p {
-              margin: auto;
-            }
-
-            .hero-buttons {
-              justify-content: center;
-
-              a {
-                min-width: 200px;
-              }
-            }
-          }
-        }
-      }
-    }
-  }
-
   .mission-container {
     width: 100%;
     min-height: 50vh;
     margin: 20px auto;
-    background: rgb(56, 182, 255);
+    // background: rgb(56, 182, 255);
 
     .wrapper {
       width: 80%;
@@ -249,8 +165,7 @@ main {
       }
 
       p {
-        padding: 10px;
-        text-align: center;
+        text-align: left;
         font-size: 16px;
       }
     }

@@ -1,6 +1,5 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  // modules: ["@element-plus/nuxt", "@nuxt/ui", "@nuxt/image"],
   plugins: [
     { src: "@/plugins/aos", ssr: false, mode: "client" },
     "@/plugins/paypal.js",
@@ -30,7 +29,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: [
     "@nuxt/ui",
-    // "nuxt-tradingview",
+    "nuxt-tradingview",
     // "nuxt-mongoose",
     // "nuxt-server-utils",
     // "@sidebase/nuxt-auth",

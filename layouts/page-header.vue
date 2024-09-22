@@ -10,33 +10,59 @@ if (process.client) {
 </script>
 
 <template>
-  <header :class="{ isactive: isactive }">
-    <div class="header-wrapper">
-      <div class="logo">
-        <img src="/novo-logo-transparent.png" alt="NOVO LEGACY" />
-      </div>
-      <nav>
-        <a href="/">home</a>
+  <header :class="[{ isactive: isactive }, 'animation']">
+    <nav
+      class="header-wrapper flex flex-wrap items-center justify-between bg-gray-100"
+    >
+      <button
+        @click="($event) => (showMenuBar = !showMenuBar)"
+        class="small-screen"
+      >
+        <i
+          class="extra-small-screen fa-solid fa-align-left p-2 text-gray-900 text-2xl"
+        ></i>
+        <i class="x-sm fa-solid fa-align-right p-2 text-gray-900 text-2xl"></i>
+      </button>
+      <h1 class="text-xl uppercase font-bold">
+        novo <span class="text-orange-500">legacy</span>.
+      </h1>
 
-        <a href="/">about</a>
-        <a href="/#contacts">contact us</a>
-      </nav>
-      <button class="hide-sm" @click="($event) => (showMenuBar = !showMenuBar)">
-        <i class="fa-solid fa-bars mr-3"></i>
-      </button>
-      <div class="checkins">
-        <nuxt-link to="/store">
-          <i class="fa-solid fa-store mr-2"></i> store</nuxt-link
-        >
-        <nuxt-link to="/store/membership"
-          ><i class="fa-brands fa-accessible-icon mr-2"></i
-          >membership</nuxt-link
-        >
+      <div
+        class="large-screen w-auto flex text-right text-bold mt-5 md:mt-0 border-none"
+      >
+        <nuxt-link to="/" class="block md:inline-block px-3 py-3 md:border-none"
+          >Home
+        </nuxt-link>
+        <nuxt-link
+          to="/#pricing"
+          class="block md:inline-block px-3 py-3 md:border-none"
+          >pricing
+        </nuxt-link>
+        <nuxt-link
+          to="/#about"
+          class="block md:inline-block px-3 py-3 md:border-none"
+          >About us
+        </nuxt-link>
+
+        <nuxt-link
+          to="/#contact"
+          class="block md:inline-block px-3 py-3 md:border-none"
+          >contact Us
+        </nuxt-link>
       </div>
-      <button class="show-sm" @click="($event) => (showMenuBar = !showMenuBar)">
-        <i class="fa-solid fa-bars-staggered mr-3"></i>
+      <button
+        @click="($event) => (showMenuBar = !showMenuBar)"
+        class="large-screen"
+      >
+        <i class="fa-solid fa-bars-staggered text-gray-900 p-2 text-2xl"></i>
       </button>
-    </div>
+
+      <nuxt-link
+        to="/membership"
+        class="extra-small-screen bg-orange-500 text-white px-7 py-2 text-sm rounded"
+        >membership</nuxt-link
+      >
+    </nav>
   </header>
 </template>
 
@@ -51,106 +77,49 @@ header {
   top: 0;
   left: 0;
   z-index: 1;
-  background: linear-gradient(to right, rgb(9, 9, 9), rgb(56, 182, 255));
+  background: white;
 
   .header-wrapper {
-    width: 90%;
-    height: 80%;
+    width: 100%;
+    height: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     background: transparent;
     padding: 0px;
-    .logo {
-      width: 15%;
-      height: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      border-right: 1px solid rgb(237, 237, 237);
+    z-index: 1;
 
-      img {
-        height: 100%;
-        width: auto;
-        object-fit: contain;
-        margin: auto;
-        cursor: pointer;
-        display: block;
-      }
-    }
-
-    nav {
-      min-width: 40%;
-      height: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      gap: 20px;
-
-      a {
-        text-transform: capitalize;
-        color: white;
-      }
-    }
-
-    button {
-      width: fit-content;
-      height: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      cursor: pointer;
-      outline: none;
-      border: none;
-
-      i {
-        color: white;
-        font-size: 35px;
-      }
-    }
-    .show-sm {
+    .small-screen,
+    .x-sm {
       display: none;
     }
 
-    .checkins {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      gap: 20px;
-
-      a {
-        min-width: 100px;
-        font-size: 17px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-transform: capitalize;
-        font-weight: 500;
-        color: rgb(255, 255, 255);
-      }
-    }
-
     @media screen and (max-width: 768px) {
+      width: 90%;
       justify-content: space-between;
-      nav,
-      .hide-sm {
+      margin: 0 auto;
+
+      h1 {
+        text-align: center;
+      }
+      .large-screen {
         display: none;
       }
 
-      .checkins {
-        min-width: 65%;
-
-        a {
-          font-size: 14px;
-        }
-
-        @media screen and (max-width: 360px) {
-          font-size: 14px;
-        }
+      .small-screen {
+        display: flex;
       }
 
-      .show-sm {
-        display: flex;
+      @media screen and (max-width: 450px) {
+        justify-content: space-around;
+        flex-direction: row-reverse;
+        .extra-small-screen {
+          display: none;
+        }
+
+        .x-sm {
+          display: flex;
+        }
       }
     }
   }
@@ -158,7 +127,8 @@ header {
 
 header.isactive {
   height: 10vh;
-  box-shadow: 0 3px 40px 1px rgb(64, 64, 64);
+  background: white;
+  box-shadow: 0 1px 40px 1px rgba(0, 0, 0, 0.455);
 
   .header-wrapper {
     width: 100%;

@@ -27,7 +27,7 @@
                   <h5
                     class="block font-sans text-xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased"
                   >
-                    Tania Andrew {{ i + 1 }}
+                    novo legacy mentee {{ i + 1 }}
                   </h5>
                   <div class="5 flex items-center gap-0">
                     <svg
@@ -100,7 +100,7 @@
                 <p
                   class="block font-sans text-base font-light leading-relaxed text-blue-gray-900 antialiased"
                 >
-                  {{ i + 3 }} Frontend Lead @ Google
+                  {{ i + 3 }} novo legacy student.
                 </p>
               </div>
             </div>
@@ -108,9 +108,8 @@
               <p
                 class="block font-sans text-base font-light leading-relaxed text-inherit antialiased"
               >
-                "I found solution to all my design needs from Creative Tim. I
-                use them as a freelancer in my hobby projects for fun! And its
-                really affordable, very humble guys !!!"
+                " Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+                possimus vero repellat. "
               </p>
             </div>
           </div>

@@ -1,5 +1,5 @@
 <template>
-  <div class="contact-container" id="contacts">
+  <div class="contact-container" id="contact">
     <div class="contact-wrapper">
       <h1
         class="text-4xl sm:text-5xl text-green-600 dark:text-white font-extrabold tracking-tight"
