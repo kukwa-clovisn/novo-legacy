@@ -19,9 +19,9 @@ if (process.client) {
         class="small-screen"
       >
         <i
-          class="extra-small-screen fa-solid fa-align-left p-2 text-gray-900 text-2xl"
+          class="extra-small-screen fa-solid fa-align-left p-2 text-gray-900 text-3xl"
         ></i>
-        <i class="x-sm fa-solid fa-align-right p-2 text-gray-900 text-2xl"></i>
+        <i class="x-sm fa-solid fa-align-right p-2 text-gray-900 text-3xl"></i>
       </button>
       <h1 class="text-xl uppercase font-bold">
         novo <span class="text-orange-500">legacy</span>.

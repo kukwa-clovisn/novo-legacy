@@ -38,9 +38,9 @@
                   <img src="/novo-logo-transparent.png" />
                 </div>
                 <p
-                  class="font-heading ml-16 text-lg leading-6 font-bold text-gray-700"
+                  class="font-heading ml-16 text-lg leading-6 font-bold text-gray-700 capitalize"
                 >
-                  Powerful API
+                  uniqueness
                 </p>
               </dt>
               <dd class="mt-2 ml-16 text-base text-gray-500">
@@ -57,9 +57,9 @@
                   <img src="/novo-logo-transparent.png" />
                 </div>
                 <p
-                  class="font-heading ml-16 text-lg leading-6 font-bold text-gray-700"
+                  class="font-heading ml-16 text-lg leading-6 font-bold text-gray-700 capitalize"
                 >
-                  Easy to integrate SDK
+                  flexibility
                 </p>
               </dt>
               <dd class="mt-2 ml-16 text-base text-gray-500">
@@ -76,9 +76,9 @@
                   <img src="/novo-logo-transparent.png" />
                 </div>
                 <p
-                  class="font-heading ml-16 text-lg leading-6 font-bold text-gray-700"
+                  class="font-heading ml-16 text-lg leading-6 font-bold text-gray-700 capitalize"
                 >
-                  Low Transaction Cost
+                  trust
                 </p>
               </dt>
               <dd class="mt-2 ml-16 text-base text-gray-500">
@@ -95,9 +95,9 @@
                   <img src="/novo-logo-transparent.png" />
                 </div>
                 <p
-                  class="font-heading ml-16 text-lg leading-6 font-bold text-gray-700"
+                  class="font-heading ml-16 text-lg leading-6 font-bold text-gray-700 capitalize"
                 >
-                  Powerful Dashboard
+                  value
                 </p>
               </dt>
               <dd class="mt-2 ml-16 text-base text-gray-500">
