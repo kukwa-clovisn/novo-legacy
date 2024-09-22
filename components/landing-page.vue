@@ -30,7 +30,7 @@
                 <nuxt-link
                   to="/membership"
                   data-aos="zoom-out"
-                  class="bg-orange-500 text-white text-sm font-light px-7 py-3 rounded shadow capitalize"
+                  class="bg-orange-500 text-white text-sm font-regular px-7 py-3 rounded shadow capitalize"
                 >
                   <i class="fa-brands fa-accessible-icon mr-1"></i>
                   Get Membership
@@ -38,7 +38,7 @@
                 <nuxt-link
                   data-aos="zoom-out"
                   to="/#contact"
-                  class="bg-gray-900 lg:ml-5 text-white text-sm font-light px-7 py-3 rounded shadow capitalize"
+                  class="bg-gray-900 lg:ml-5 text-white text-sm font-regular px-7 py-3 rounded shadow capitalize"
                   ><i class="fa-solid fa-phone mr-1"></i>
                   contact us
                 </nuxt-link>
