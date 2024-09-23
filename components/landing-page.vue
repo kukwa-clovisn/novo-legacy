@@ -10,36 +10,38 @@
         <div class="container mx-auto h-full sm:p-10">
           <section class="container px-4 flex mt-5 items-center h-full lg:mt-0">
             <div class="container w-full">
-              <h1 class="text-4xl lg:text-6xl font-bold capitalize">
+              <h1 class="text-4xl lg:text-6xl font-bold capitalize text-left">
                 Find your
                 <span class="text-orange-500 font-extrabold">perfect</span>
                 trading
                 <span class="text-orange-500 font-extrabold">mentorship</span>
               </h1>
               <div class="stroke w-20 h-2 bg-orange-500 my-4"></div>
-              <p class="text-xl mb-10">
+              <p class="text-xl mb-10 text-left">
                 Welcome to
-                <span class="text-orange-400">Nova legacy</span> website. We aim
-                to provide the best possible services for traders who wants to
-                upskill their trading game. Beginner or experienced, start your
-                journey.
+                <span class="text-orange-400 uppercase">Nova legacy</span>
+                website. We aim to provide the best possible services for
+                traders who wants to upskill their trading game. Beginner or
+                experienced, start your journey.
               </p>
               <div
                 class="buttons flex flex-wrap gap-4 justify-start items-center"
               >
                 <nuxt-link
-                  to="/membership"
+                  to="/#membership"
                   data-aos="zoom-out"
                   class="bg-orange-500 text-white text-sm font-regular px-7 py-3 rounded shadow capitalize"
                 >
-                  <i class="fa-brands fa-accessible-icon mr-1"></i>
+                  <i
+                    class="fa-brands fa-accessible-icon mr-2 animate-bounce"
+                  ></i>
                   Get Membership
                 </nuxt-link>
                 <nuxt-link
                   data-aos="zoom-out"
                   to="/#contact"
                   class="bg-gray-900 lg:ml-5 text-white text-sm font-regular px-7 py-3 rounded shadow capitalize"
-                  ><i class="fa-solid fa-phone mr-1"></i>
+                  ><i class="fa-solid fa-phone mr-2"></i>
                   contact us
                 </nuxt-link>
               </div>
@@ -58,7 +60,7 @@
 
 <style lang="scss" scoped>
 .landing-page {
-  padding-top: 10vh;
+  padding-top: 14vh;
 
   .relative {
     width: 95%;
@@ -127,7 +129,7 @@
         height: 50vh;
         width: auto;
         object-fit: cover;
-        opacity: 0.5;
+        opacity: 0.3;
       }
     }
   }

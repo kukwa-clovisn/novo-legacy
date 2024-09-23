@@ -35,7 +35,9 @@
                 </svg>
               </div>
               <div class="mt-5">
-                <h3 class="text-lg font-bold text-gray-900">Mission</h3>
+                <h3 class="text-lg font-bold text-gray-900 text-left">
+                  Mission
+                </h3>
                 <p class="mt-2 text-gray-800 text-left">
                   We aim to make the world a better place through innovation and
                   collaboration.
@@ -63,7 +65,9 @@
                 </svg>
               </div>
               <div class="mt-5">
-                <h3 class="text-lg font-bold text-gray-900">Values</h3>
+                <h3 class="text-lg font-bold text-gray-900 text-left">
+                  Values
+                </h3>
                 <p class="mt-2 text-gray-800 text-left">
                   We believe in honesty, integrity, and respect for all
                   individuals.
@@ -96,7 +100,9 @@
                 </svg>
               </div>
               <div class="mt-5">
-                <h3 class="text-lg font-bold text-gray-900">Vision</h3>
+                <h3 class="text-lg font-bold text-gray-900 text-left">
+                  Vision
+                </h3>
                 <p class="mt-2 text-gray-800 text-left">
                   We envision a world where trading is handled with mastery and
                   professionalism.
@@ -107,6 +113,7 @@
         </div>
       </div>
     </div>
+    <Team />
     <Testimonials />
     <contact />
   </main>
@@ -132,7 +139,7 @@ main {
       h1 {
         padding: 10px;
         font-size: 45px;
-        text-align: center;
+        text-align: left;
         text-transform: uppercase;
         color: black;
       }

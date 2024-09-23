@@ -24,10 +24,10 @@ if (process.client) {
         <i class="x-sm fa-solid fa-align-right p-2 text-gray-900 text-3xl"></i>
       </button>
       <h1
-        class="text-xl uppercase font-bold cursor-pointer"
+        class="text-xl uppercase font-extrabold cursor-pointer"
         @click="($event) => navigateTo('/')"
       >
-        -_-novo <span class="text-orange-500">legacy-_-</span>
+        -_-novo<span class="text-orange-500">legacy-_-</span>
       </h1>
 
       <div
@@ -37,19 +37,19 @@ if (process.client) {
           >Home
         </nuxt-link>
         <nuxt-link
-          to="/#pricing"
-          class="block md:inline-block px-3 py-3 md:border-none"
-          >pricing
-        </nuxt-link>
-        <nuxt-link
           to="/#about"
           class="block md:inline-block px-3 py-3 md:border-none"
           >About us
         </nuxt-link>
+        <nuxt-link
+          to="/#values"
+          class="block md:inline-block px-3 py-3 md:border-none"
+          >Values
+        </nuxt-link>
 
         <nuxt-link
           to="/#contact"
-          class="block md:inline-block px-3 py-3 md:border-none"
+          class="block md:inline-block px-3 py-3 md:border-none capitalize"
           >contact Us
         </nuxt-link>
       </div>
@@ -61,9 +61,11 @@ if (process.client) {
       </button>
 
       <nuxt-link
-        to="/membership"
+        to="/#membership"
         class="extra-small-screen bg-orange-500 text-white px-7 py-2 text-sm rounded"
-        >membership</nuxt-link
+      >
+        <i class="fa-brands fa-accessible-icon animate-bounce"></i>
+        membership</nuxt-link
       >
     </nav>
   </header>

@@ -28,7 +28,7 @@
               <div class="flex w-full flex-col gap-0.5">
                 <div class="flex items-center justify-between">
                   <h5
-                    class="block font-sans text-xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased"
+                    class="block font-sans text-xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased capitalize"
                   >
                     novo legacy mentee {{ i + 1 }}
                   </h5>
@@ -101,7 +101,7 @@
                   </div>
                 </div>
                 <p
-                  class="block font-sans text-base font-light leading-relaxed text-blue-gray-900 antialiased"
+                  class="block font-sans text-base font-light leading-relaxed text-blue-gray-900 antialiased text-left"
                 >
                   {{ i + 3 }} novo legacy student.
                 </p>
@@ -109,7 +109,7 @@
             </div>
             <div class="mb-6 p-0">
               <p
-                class="block font-sans text-base font-light leading-relaxed text-inherit antialiased"
+                class="block font-sans text-base font-light leading-relaxed text-inherit antialiased text-left"
               >
                 " Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
                 possimus vero repellat. "

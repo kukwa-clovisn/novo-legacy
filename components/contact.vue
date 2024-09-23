@@ -1,7 +1,8 @@
 <template>
   <div class="contact-container" id="contact">
     <div class="contact-wrapper">
-      <h1 data-aos="zoom-out"
+      <h1
+        data-aos="zoom-out"
         class="text-4xl sm:text-5xl text-green-600 dark:text-white font-extrabold tracking-tight"
       >
         Get in touch
@@ -17,7 +18,10 @@
         "
         alt=""
       />
-      <p class="text-normal font-light text-gray-600 dark:text-gray-600 py-2" data-aos="zoom-out">
+      <p
+        class="text-normal font-light text-gray-700 dark:text-gray-600 py-2"
+        data-aos="zoom-out"
+      >
         check us on social media.
       </p>
 
@@ -25,17 +29,10 @@
         <a
           href="https://linktr.ee/novolegacy"
           target="_blank"
-          class="text-orange-600 hover:text-gray-500 capitalize"
+          class="text-white hover:bg-gray-900 capitalize bg-orange-500 px-5 py-3 rounded"
         >
           <i class="fa-solid fa-link mr-2"></i>
           <span>view media handles</span>
-          <div
-            class="w-full flex justity-center items-center gap-2 text-xl m-auto"
-          >
-            <i class="fa-brands fa-facebook"></i>
-            <i class="fa-brands fa-youtube"></i>
-            <i class="fa-brands fa-twitter"></i>
-          </div>
         </a>
       </nav>
     </div>

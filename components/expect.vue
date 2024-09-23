@@ -18,9 +18,13 @@
       <div class="flex flex-wrap -mx-4 mt-12">
         <div class="w-full md:w-1/3 px-4 mb-8" data-aos="zoom-out">
           <div class="rounded-md bg-white shadow-md p-8">
-            <div class="text-4xl font-bold text-orange-600 mb-4">01</div>
-            <h3 class="text-2xl font-bold mb-4 capitalize">Teachings</h3>
-            <p class="text-gray-600 mb-4">
+            <div class="text-4xl font-bold text-orange-600 mb-4 text-left">
+              01
+            </div>
+            <h3 class="text-2xl font-bold mb-4 capitalize text-left">
+              Teachings
+            </h3>
+            <p class="text-gray-600 mb-4 text-left">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec
               orci quis justo aliquam euismod eget a leo.
             </p>
@@ -28,9 +32,13 @@
         </div>
         <div class="w-full md:w-1/3 px-4 mb-8" data-aos="zoom-out">
           <div class="rounded-md bg-white shadow-md p-8">
-            <div class="text-4xl font-bold text-orange-600 mb-4">02</div>
-            <h3 class="text-2xl font-bold mb-4 capitalize">follow up</h3>
-            <p class="text-gray-600 mb-4">
+            <div class="text-4xl font-bold text-orange-600 mb-4 text-left">
+              02
+            </div>
+            <h3 class="text-2xl font-bold mb-4 capitalize text-left">
+              follow up
+            </h3>
+            <p class="text-gray-600 mb-4 text-left">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec
               orci quis justo aliquam euismod eget a leo.
             </p>
@@ -39,9 +47,13 @@
 
         <div class="w-full md:w-1/3 px-4 mb-8" data-aos="zoom-out">
           <div class="rounded-md bg-white shadow-md p-8">
-            <div class="text-4xl font-bold text-orange-600 mb-4">03</div>
-            <h3 class="text-2xl font-bold mb-4 capitalize">guidance</h3>
-            <p class="text-gray-600 mb-4">
+            <div class="text-4xl font-bold text-orange-600 mb-4 text-left">
+              03
+            </div>
+            <h3 class="text-2xl font-bold mb-4 capitalize text-left">
+              guidance
+            </h3>
+            <p class="text-gray-600 mb-4 text-left">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec
               orci quis justo aliquam euismod eget a leo.
             </p>

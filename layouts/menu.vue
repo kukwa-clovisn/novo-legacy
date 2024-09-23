@@ -9,7 +9,9 @@ const showMenuBar = showMenu();
       @click="($event) => (showMenuBar = !showMenuBar)"
     ></div>
 
-    <div class="flex bg-white flex-col justify-between w-64 h-full bg-white">
+    <div
+      class="fixed top-0 left-0 flex bg-white flex-col justify-between w-64 h-full bg-white"
+    >
       <div
         class="logo relative flex flex-col items-center justify-center h-1/4"
         @click="($event) => (navigateTo('/'), (showMenuBar = false))"
@@ -37,12 +39,12 @@ const showMenuBar = showMenu();
           </nuxt-link>
           <nuxt-link
             @click="($event) => (showMenuBar = false)"
-            to="/#pricing"
+            to="/#values"
             class="flex items-center gap-3 px-4 py-3 capitalize text-gray-800 hover:border-l-[5px] hover:border-orange-500 hover:text-orange-500 hover:font-bold"
           >
             <i class="fa-solid fa-tags text-gray-600"></i>
 
-            pricing
+            values
           </nuxt-link>
           <nuxt-link
             @click="($event) => (showMenuBar = false)"
@@ -54,7 +56,7 @@ const showMenuBar = showMenu();
           </nuxt-link>
           <nuxt-link
             @click="($event) => (showMenuBar = false)"
-            to="/membership"
+            to="/#membership"
             class="flex items-center gap-3 px-4 py-3 capitalize text-gray-800 hover:border-l-[5px] hover:border-orange-500 hover:text-orange-500 hover:font-bold"
           >
             <i class="fa-brands fa-accessible-icon text-gray-600"></i>
@@ -97,7 +99,7 @@ const showMenuBar = showMenu();
   width: 100vw;
   height: 100vh;
   position: fixed;
-  bottom: 0;
+  top: 0;
   margin: 0;
   padding: 0;
   left: 0;

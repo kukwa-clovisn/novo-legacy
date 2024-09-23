@@ -18,7 +18,7 @@
             experts.
           </p>
           <p
-            class="mt-4 max-w-2xl text-lg text-gray-500 lg:mx-auto"
+            class="mt-4 max-w-2xl text-lg text-gray-700 lg:mx-auto"
             data-aos="slide-up"
           >
             We know how to handle market conditions and have a profond
@@ -33,17 +33,17 @@
             <div class="relative" data-aos="slide-up">
               <dt>
                 <div
-                  class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-gray-500 text-white"
+                  class="absolute flex items-center justify-center h-12 w-12 rounded-full bg-gray-900 text-white"
                 >
                   <img src="/novo-logo-transparent.png" />
                 </div>
                 <p
-                  class="font-heading ml-16 text-lg leading-6 font-bold text-gray-700 capitalize"
+                  class="font-heading ml-16 text-lg leading-6 font-bold text-gray-700 capitalize text-left"
                 >
                   uniqueness
                 </p>
               </dt>
-              <dd class="mt-2 ml-16 text-base text-gray-500">
+              <dd class="mt-2 ml-16 text-base text-gray-600 text-left">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                 Maiores impedit perferendis suscipit eaque, iste dolor
                 cupiditate blanditiis ratione.
@@ -52,17 +52,17 @@
             <div class="relative" data-aos="slide-up">
               <dt>
                 <div
-                  class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-gray-500 text-white"
+                  class="absolute flex items-center justify-center h-12 w-12 rounded-full bg-gray-900 text-white"
                 >
-                  <img src="/novo-logo-transparent.png" />
+                  <img class="rounded-full" src="/novo-logo-transparent.png" />
                 </div>
                 <p
-                  class="font-heading ml-16 text-lg leading-6 font-bold text-gray-700 capitalize"
+                  class="font-heading ml-16 text-lg leading-6 font-bold text-gray-700 capitalize text-left"
                 >
                   flexibility
                 </p>
               </dt>
-              <dd class="mt-2 ml-16 text-base text-gray-500">
+              <dd class="mt-2 ml-16 text-base text-gray-600 text-left">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                 Maiores impedit perferendis suscipit eaque, iste dolor
                 cupiditate blanditiis ratione.
@@ -71,17 +71,17 @@
             <div class="relative" data-aos="slide-up">
               <dt>
                 <div
-                  class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-gray-500 text-white"
+                  class="absolute flex items-center justify-center h-12 w-12 rounded-full bg-gray-900 text-white"
                 >
-                  <img src="/novo-logo-transparent.png" />
+                  <img class="rounded-full" src="/novo-logo-transparent.png" />
                 </div>
                 <p
-                  class="font-heading ml-16 text-lg leading-6 font-bold text-gray-700 capitalize"
+                  class="font-heading ml-16 text-lg leading-6 font-bold text-gray-700 capitalize text-left"
                 >
                   trust
                 </p>
               </dt>
-              <dd class="mt-2 ml-16 text-base text-gray-500">
+              <dd class="mt-2 ml-16 text-base text-gray-600 text-left">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                 Maiores impedit perferendis suscipit eaque, iste dolor
                 cupiditate blanditiis ratione.
@@ -90,17 +90,17 @@
             <div class="relative" data-aos="slide-up">
               <dt>
                 <div
-                  class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-gray-500 text-white"
+                  class="absolute flex items-center justify-center h-12 w-12 rounded-full bg-gray-900 text-white"
                 >
-                  <img src="/novo-logo-transparent.png" />
+                  <img class="rounded-full" src="/novo-logo-transparent.png" />
                 </div>
                 <p
-                  class="font-heading ml-16 text-lg leading-6 font-bold text-gray-700 capitalize"
+                  class="font-heading ml-16 text-lg leading-6 font-bold text-gray-700 capitalize text-left"
                 >
                   value
                 </p>
               </dt>
-              <dd class="mt-2 ml-16 text-base text-gray-500">
+              <dd class="mt-2 ml-16 text-base text-gray-600 text-left">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                 Maiores impedit perferendis suscipit eaque, iste dolor
                 cupiditate blanditiis ratione.

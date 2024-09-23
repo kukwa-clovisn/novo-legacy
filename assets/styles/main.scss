@@ -18,14 +18,22 @@ html {
 }
 
 body {
-  width: 100vw;
-  height: 100vh;
   background: rgb(253, 254, 255);
   color: rgb(13, 13, 13);
   overflow: hidden;
   overflow-y: scroll;
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
+}
+#__nuxt {
+  font-family: "Montserrat", "Poppins", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  width: 100vw;
+  height: fit-content;
+  box-sizing: border-box;
 }
 
 * {
@@ -35,6 +43,7 @@ body {
   font-style: normal;
   transition: all 0.3s ease;
   position: relative;
+  box-sizing: border-box;
 }
 
 a,

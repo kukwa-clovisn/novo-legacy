@@ -1,12 +1,12 @@
 <template>
-  <div class="pricing-container" id="pricing">
+  <div class="pricing-container" id="membership">
     <div class="flex flex-col text-center w-full my-8">
       <div class="w-40 mx-auto">
         <h2
           data-aos="fade-up"
           class="font-heading mb-4 bg-orange-100 text-orange-800 px-4 py-2 rounded-lg md:w-36 md:mx-auto text-xs font-semibold tracking-widest uppercase title-font"
         >
-          Pricing
+          membership
         </h2>
       </div>
 
@@ -31,7 +31,9 @@
         <div
           class="h-full p-6 rounded-lg border-2 border-gray-300 flex flex-col relative overflow-hidden"
         >
-          <h2 class="text-sm tracking-widest title-font mb-1 font-medium">
+          <h2
+            class="text-sm tracking-widest title-font mb-1 font-medium text-left"
+          >
             Monthly
           </h2>
           <h1
@@ -121,7 +123,7 @@
             >POPULAR</span
           >
           <h2
-            class="text-sm tracking-widest title-font mb-1 font-medium uppercase"
+            class="text-sm tracking-widest title-font mb-1 font-medium uppercase text-left"
           >
             Yearly
           </h2>

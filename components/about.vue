@@ -6,15 +6,16 @@
       </div>
     </div>
     <div class="sm:w-1/2 p-5">
-      <div class="text" data-aos="slide-left">
-        <span class="text-gray-500 border-b-2 border-gray-400 uppercase"
+      <div class="text-left" data-aos="slide-left">
+        <span
+          class="text-gray-500 border-b-2 border-gray-400 uppercase text-left"
           >About us</span
         >
-        <h2 class="my-4 font-bold text-3xl sm:text-4xl">
+        <h2 class="my-4 font-bold text-3xl sm:text-4xl text-left">
           About
           <span class="text-orange-500 uppercase font-bold">novo legacy</span>
         </h2>
-        <p class="text-gray-700">
+        <p class="text-gray-700 text-left">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid,
           commodi doloremque, fugiat illum magni minus nisi nulla numquam
           obcaecati placeat quia, repellat tempore voluptatum.
