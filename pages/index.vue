@@ -114,6 +114,17 @@
       </div>
     </div>
     <Team />
+    <div class="picture h-3/4 w-full flex flex-col justify-center gap-2">
+      <div class="blur-wrapper"></div>
+      <h1 class="text-center text-3xl capitalize text-white relative">
+        Be a trader with class
+      </h1>
+      <nuxt-link
+        to="/login"
+        class="w-fit px-5 py-2 bg-orange-500 text-white capitalize m-auto relative"
+        >Join Membership</nuxt-link
+      >
+    </div>
     <Testimonials />
     <contact />
   </main>
@@ -149,6 +160,15 @@ main {
         font-size: 16px;
       }
     }
+  }
+
+  .picture {
+    min-height: 70vh;
+    background: url("../assets/man-trading.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    justify-content: center;
   }
 }
 </style>

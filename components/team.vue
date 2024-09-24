@@ -1,5 +1,5 @@
 <template>
-  <div class="team-container relative overflow bg-white">
+  <div class="team-container relative bg-white">
     <div class="pt-16 pb-80 sm:pt-24 sm:pb-40 lg:pt-40 lg:pb-48">
       <div class="relative mx-auto max-w-7xl px-4 sm:static sm:px-6 lg:px-8">
         <div class="sm:max-w-lg">
@@ -14,7 +14,7 @@
           </p>
         </div>
         <div>
-          <div class="mt-10">
+          <div class="mt-10 h-fit">
             <!-- Decorative image grid -->
             <div
               aria-hidden="true"
@@ -103,7 +103,7 @@
 </template>
 <style lang="scss" scoped>
 .team-container {
-  margin: 4vh auto;
+  margin: 7vh auto;
   margin-top: 2vh;
 }
 </style>
