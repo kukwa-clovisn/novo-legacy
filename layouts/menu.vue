@@ -20,12 +20,12 @@ const showMenuBar = showMenu();
           <i class="fa-solid fa-xmark text-2xl text-gray-400"></i>
         </button>
         <img
-          src="/novo-logo.jpg"
+          src="/logo-white.jpg"
           style="height: 60%; width: auto; object-fit: contain; margin: auto"
-          alt="Novo Legacy"
+          alt="Advanced Tech Academy"
           class="rounded-full"
         />
-        <h1 class="text-center uppercase font-bold py-3">&copy;novo legacy</h1>
+        <h1 class="text-center uppercase font-bold py-3">&copy;Codingherald</h1>
       </div>
       <div class="menu-items bg-gray-200 flex flex-col flex-1 overflow-y-auto">
         <nav class="flex-1 px-2 py-4">
@@ -39,15 +39,6 @@ const showMenuBar = showMenu();
           </nuxt-link>
           <nuxt-link
             @click="($event) => (showMenuBar = false)"
-            to="/#values"
-            class="flex items-center gap-3 px-4 py-3 capitalize text-gray-800 hover:border-l-[5px] hover:border-orange-500 hover:text-orange-500 hover:font-bold"
-          >
-            <i class="fa-solid fa-tags text-gray-600"></i>
-
-            values
-          </nuxt-link>
-          <nuxt-link
-            @click="($event) => (showMenuBar = false)"
             to="/#about"
             class="flex items-center gap-3 px-4 py-3 capitalize text-gray-800 hover:border-l-[5px] hover:border-orange-500 hover:text-orange-500 hover:font-bold"
           >
@@ -56,11 +47,21 @@ const showMenuBar = showMenu();
           </nuxt-link>
           <nuxt-link
             @click="($event) => (showMenuBar = false)"
+            to="/#values"
+            class="flex items-center gap-3 px-4 py-3 capitalize text-gray-800 hover:border-l-[5px] hover:border-orange-500 hover:text-orange-500 hover:font-bold"
+          >
+            <i class="fa-solid fa-tags text-gray-600"></i>
+
+            values
+          </nuxt-link>
+
+          <nuxt-link
+            @click="($event) => (showMenuBar = false)"
             to="/#membership"
             class="flex items-center gap-3 px-4 py-3 capitalize text-gray-800 hover:border-l-[5px] hover:border-orange-500 hover:text-orange-500 hover:font-bold"
           >
             <i class="fa-brands fa-accessible-icon text-gray-600"></i>
-            membership
+            courses
           </nuxt-link>
           <nuxt-link
             @click="($event) => (showMenuBar = false)"

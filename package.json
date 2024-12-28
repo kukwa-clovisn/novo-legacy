@@ -12,6 +12,7 @@
   "dependencies": {
     "@element-plus/nuxt": "^1.0.10",
     "@nuxt/ui": "^2.18.4",
+    "@nuxtjs/tailwindcss": "^6.12.1",
     "aos": "^2.3.4",
     "bcrypt": "^5.1.1",
     "element-plus": "^2.8.1",

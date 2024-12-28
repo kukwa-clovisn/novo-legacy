@@ -1,47 +1,17 @@
 <template>
   <div class="chart-container">
     <div class="chart-wrapper">
-      <TickerTape
-        :options="{
-          symbols: [
-            {
-              proName: 'FOREXCOM:SPXUSD',
-              title: 'S&P 500 Index',
-            },
-            {
-              proName: 'FOREXCOM:NSXUSD',
-              title: 'US 100 Cash CFD',
-            },
-            {
-              proName: 'FX_IDC:EURUSD',
-              title: 'EUR to USD',
-            },
-            {
-              proName: 'BITSTAMP:BTCUSD',
-              title: 'Bitcoin',
-            },
-            {
-              proName: 'BITSTAMP:ETHUSD',
-              title: 'Ethereum',
-            },
-          ],
-          showSymbolLogo: true,
-          isTransparent: false,
-          displayMode: 'adaptive',
-          colorTheme: 'light',
-          locale: 'en',
-        }"
-      />
       <h1
-        class="text-center textxl font-bold capitalize text-gray-700"
+        class="text-center text-xl font-bold capitalize text-gray-700"
         data-aos="zoom-out"
       >
-        Become an expert trader today!
+        Become a First Class
+        <span class="text-orange-500 font-bolder">IT expert.</span>
       </h1>
       <p class="w-4/4 text-center" data-aos="zoom-out">
-        Join my mentorship and let me walk you through the concept of
-        <span>technical analysis</span> from basics to becoming a profitable
-        trader in real time. <br />
+        Join our next training batch and let us walk you through the process of
+        becoming a
+        <span>first class IT expert</span>
         <br />
         The last opportunity you had has was yesterday, the next is now...
         <nuxt-link
@@ -51,26 +21,6 @@
           >start now <i class="fa-solid fa-pointer"></i
         ></nuxt-link>
       </p>
-      <!-- <div class="chart">
-        <Chart
-          :options="{
-            autosize: true,
-            symbol: 'OANDA:EURUSD',
-            interval: 'D',
-            timezone: 'Etc/UTC',
-            theme: 'dark',
-            style: '1',
-            locale: 'en',
-            withdateranges: true,
-            hide_side_toolbar: false,
-            allow_symbol_change: true,
-            details: true,
-            hotlist: true,
-            calendar: true,
-            support_host: 'https://www.tradingview.com',
-          }"
-        />
-      </div> -->
     </div>
   </div>
 </template>
@@ -79,6 +29,7 @@
 .chart-container {
   width: 100%;
   height: fit-content;
+  margin: 20px auto;
 
   .chart-wrapper {
     width: 100%;

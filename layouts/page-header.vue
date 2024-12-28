@@ -27,7 +27,7 @@ if (process.client) {
         class="text-xl uppercase font-extrabold cursor-pointer"
         @click="($event) => navigateTo('/')"
       >
-        -_-novo<span class="text-orange-500">legacy-_-</span>
+        -_-A<span class="text-orange-500">TECH-_-</span>
       </h1>
 
       <div

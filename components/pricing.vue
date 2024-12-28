@@ -6,7 +6,7 @@
           data-aos="fade-up"
           class="font-heading mb-4 bg-orange-100 text-orange-800 px-4 py-2 rounded-lg md:w-36 md:mx-auto text-xs font-semibold tracking-widest uppercase title-font"
         >
-          membership
+          courses
         </h2>
       </div>
 
@@ -26,7 +26,7 @@
     </div>
 
     <div class="flex flex-wrap justify-center items-center">
-      <!-- card:1 -->
+      <!-- card:html -->
       <div class="p-4 xl:w-1/4 md:w-1/2 w-full" data-aos="fade-up">
         <div
           class="h-full p-6 rounded-lg border-2 border-gray-300 flex flex-col relative overflow-hidden"
@@ -34,13 +34,13 @@
           <h2
             class="text-sm tracking-widest title-font mb-1 font-medium text-left"
           >
-            Monthly
+            Duration:<span class="font-bolder">2 Months</span>
           </h2>
           <h1
             class="text-5xl text-gray-900 leading-none flex items-center pb-4 mb-4 border-b border-gray-200"
           >
-            <span>$70</span>
-            <span class="text-lg ml-1 font-normal text-gray-500">/mo</span>
+            <span>HTML</span>
+            <span class="text-sm ml-1 font-normal text-gray-500"> course</span>
           </h1>
           <p class="flex items-center text-gray-600 mb-2">
             <span
@@ -91,10 +91,26 @@
               >
                 <path d="M20 6L9 17l-5-5"></path>
               </svg> </span
-            >vip inner circle
+            >Exercises
+          </p>
+          <p class="flex items-center text-gray-600 mb-6">
+            <span
+              class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0"
+            >
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2.5"
+                class="w-3 h-3"
+                viewBox="0 0 24 24"
+              >
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg> </span
+            >Live Sessions + project(s)
           </p>
           <button
-            @click="($event) => navigateTo('/checkout')"
             class="flex items-center mt-auto text-white bg-gray-400 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-500 rounded"
           >
             enroll now
@@ -112,26 +128,21 @@
           </button>
         </div>
       </div>
-
-      <!-- card:2 -->
+      <!-- card: javascript -->
       <div class="p-4 xl:w-1/4 md:w-1/2 w-full" data-aos="fade-up">
         <div
-          class="h-full p-6 rounded-lg border-2 border-orange-500 flex flex-col relative overflow-hidden"
+          class="h-full p-6 rounded-lg border-2 border-gray-300 flex flex-col relative overflow-hidden"
         >
-          <span
-            class="bg-orange-500 text-white px-3 py-1 tracking-widest text-xs absolute right-0 top-0 rounded-bl"
-            >POPULAR</span
-          >
           <h2
-            class="text-sm tracking-widest title-font mb-1 font-medium uppercase text-left"
+            class="text-sm tracking-widest title-font mb-1 font-medium text-left"
           >
-            Yearly
+            Duration:<span class="font-bolder">2 Months</span>
           </h2>
           <h1
-            class="text-5xl text-gray-900 leading-none flex items-center pb-4 mb-4 border-b border-gray-200"
+            class="text-3xl text-gray-900 leading-none flex items-center pb-4 mb-4 border-b border-gray-200"
           >
-            <span>$449</span>
-            <span class="text-lg ml-1 font-normal text-gray-500">/yr</span>
+            <span>Javascript</span>
+            <span class="text-sm ml-1 font-normal text-gray-500"> course</span>
           </h1>
           <p class="flex items-center text-gray-600 mb-2">
             <span
@@ -182,7 +193,7 @@
               >
                 <path d="M20 6L9 17l-5-5"></path>
               </svg> </span
-            >vip inner circle
+            >Exercises
           </p>
           <p class="flex items-center text-gray-600 mb-6">
             <span
@@ -199,7 +210,1153 @@
               >
                 <path d="M20 6L9 17l-5-5"></path>
               </svg> </span
-            >yearly bonuses/giveaways
+            >Live Sessions + project(s)
+          </p>
+          <button
+            class="flex items-center mt-auto text-white bg-gray-400 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-500 rounded"
+          >
+            enroll now
+            <svg
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              class="w-4 h-4 ml-auto"
+              viewBox="0 0 24 24"
+            >
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+      <!-- card: css -->
+      <div class="p-4 xl:w-1/4 md:w-1/2 w-full" data-aos="fade-up">
+        <div
+          class="h-full p-6 rounded-lg border-2 border-gray-300 flex flex-col relative overflow-hidden"
+        >
+          <h2
+            class="text-sm tracking-widest title-font mb-1 font-medium text-left"
+          >
+            Duration:<span class="font-bolder">2 Months</span>
+          </h2>
+          <h1
+            class="text-5xl text-gray-900 leading-none flex items-center pb-4 mb-4 border-b border-gray-200"
+          >
+            <span>CSS</span>
+            <span class="text-sm ml-1 font-normal text-gray-500"> course</span>
+          </h1>
+          <p class="flex items-center text-gray-600 mb-2">
+            <span
+              class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0"
+            >
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2.5"
+                class="w-3 h-3"
+                viewBox="0 0 24 24"
+              >
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg> </span
+            >3days a week
+          </p>
+          <p class="flex items-center text-gray-600 mb-2">
+            <span
+              class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0"
+            >
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2.5"
+                class="w-3 h-3"
+                viewBox="0 0 24 24"
+              >
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg> </span
+            >follow up
+          </p>
+          <p class="flex items-center text-gray-600 mb-6">
+            <span
+              class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0"
+            >
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2.5"
+                class="w-3 h-3"
+                viewBox="0 0 24 24"
+              >
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg> </span
+            >Exercises
+          </p>
+          <p class="flex items-center text-gray-600 mb-6">
+            <span
+              class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0"
+            >
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2.5"
+                class="w-3 h-3"
+                viewBox="0 0 24 24"
+              >
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg> </span
+            >Live Sessions + project(s)
+          </p>
+          <button
+            class="flex items-center mt-auto text-white bg-gray-400 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-500 rounded"
+          >
+            enroll now
+            <svg
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              class="w-4 h-4 ml-auto"
+              viewBox="0 0 24 24"
+            >
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+      <!-- card: vuejs -->
+      <div class="p-4 xl:w-1/4 md:w-1/2 w-full" data-aos="fade-up">
+        <div
+          class="h-full p-6 rounded-lg border-2 border-gray-300 flex flex-col relative overflow-hidden"
+        >
+          <h2
+            class="text-sm tracking-widest title-font mb-1 font-medium text-left"
+          >
+            Duration:<span class="font-bolder">2 Months</span>
+          </h2>
+          <h1
+            class="text-5xl text-gray-900 leading-none flex items-center pb-4 mb-4 border-b border-gray-200"
+          >
+            <span>VUEJS</span>
+            <span class="text-sm ml-1 font-normal text-gray-500"> course</span>
+          </h1>
+          <p class="flex items-center text-gray-600 mb-2">
+            <span
+              class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0"
+            >
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2.5"
+                class="w-3 h-3"
+                viewBox="0 0 24 24"
+              >
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg> </span
+            >3days a week
+          </p>
+          <p class="flex items-center text-gray-600 mb-2">
+            <span
+              class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0"
+            >
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2.5"
+                class="w-3 h-3"
+                viewBox="0 0 24 24"
+              >
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg> </span
+            >follow up
+          </p>
+          <p class="flex items-center text-gray-600 mb-6">
+            <span
+              class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0"
+            >
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2.5"
+                class="w-3 h-3"
+                viewBox="0 0 24 24"
+              >
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg> </span
+            >Exercises
+          </p>
+          <p class="flex items-center text-gray-600 mb-6">
+            <span
+              class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0"
+            >
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2.5"
+                class="w-3 h-3"
+                viewBox="0 0 24 24"
+              >
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg> </span
+            >Live Sessions + project(s)
+          </p>
+          <button
+            class="flex items-center mt-auto text-white bg-gray-400 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-500 rounded"
+          >
+            enroll now
+            <svg
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              class="w-4 h-4 ml-auto"
+              viewBox="0 0 24 24"
+            >
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+      <!-- card: nuxtjs -->
+      <div class="p-4 xl:w-1/4 md:w-1/2 w-full" data-aos="fade-up">
+        <div
+          class="h-full p-6 rounded-lg border-2 border-gray-300 flex flex-col relative overflow-hidden"
+        >
+          <h2
+            class="text-sm tracking-widest title-font mb-1 font-medium text-left"
+          >
+            Duration:<span class="font-bolder">2 Months</span>
+          </h2>
+          <h1
+            class="text-5xl text-gray-900 leading-none flex items-center pb-4 mb-4 border-b border-gray-200"
+          >
+            <span>NUXTJS</span>
+            <span class="text-sm ml-1 font-normal text-gray-500"> course</span>
+          </h1>
+          <p class="flex items-center text-gray-600 mb-2">
+            <span
+              class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0"
+            >
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2.5"
+                class="w-3 h-3"
+                viewBox="0 0 24 24"
+              >
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg> </span
+            >3days a week
+          </p>
+          <p class="flex items-center text-gray-600 mb-2">
+            <span
+              class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0"
+            >
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2.5"
+                class="w-3 h-3"
+                viewBox="0 0 24 24"
+              >
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg> </span
+            >follow up
+          </p>
+          <p class="flex items-center text-gray-600 mb-6">
+            <span
+              class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0"
+            >
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2.5"
+                class="w-3 h-3"
+                viewBox="0 0 24 24"
+              >
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg> </span
+            >Exercises
+          </p>
+          <p class="flex items-center text-gray-600 mb-6">
+            <span
+              class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0"
+            >
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2.5"
+                class="w-3 h-3"
+                viewBox="0 0 24 24"
+              >
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg> </span
+            >Live Sessions + project(s)
+          </p>
+          <button
+            class="flex items-center mt-auto text-white bg-gray-400 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-500 rounded"
+          >
+            enroll now
+            <svg
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              class="w-4 h-4 ml-auto"
+              viewBox="0 0 24 24"
+            >
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+      <!-- card: reactjs -->
+      <div class="p-4 xl:w-1/4 md:w-1/2 w-full" data-aos="fade-up">
+        <div
+          class="h-full p-6 rounded-lg border-2 border-gray-300 flex flex-col relative overflow-hidden"
+        >
+          <h2
+            class="text-sm tracking-widest title-font mb-1 font-medium text-left"
+          >
+            Duration:<span class="font-bolder">2 Months</span>
+          </h2>
+          <h1
+            class="text-5xl text-gray-900 leading-none flex items-center pb-4 mb-4 border-b border-gray-200"
+          >
+            <span>REACT</span>
+            <span class="text-sm ml-1 font-normal text-gray-500"> course</span>
+          </h1>
+          <p class="flex items-center text-gray-600 mb-2">
+            <span
+              class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0"
+            >
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2.5"
+                class="w-3 h-3"
+                viewBox="0 0 24 24"
+              >
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg> </span
+            >3days a week
+          </p>
+          <p class="flex items-center text-gray-600 mb-2">
+            <span
+              class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0"
+            >
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2.5"
+                class="w-3 h-3"
+                viewBox="0 0 24 24"
+              >
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg> </span
+            >follow up
+          </p>
+          <p class="flex items-center text-gray-600 mb-6">
+            <span
+              class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0"
+            >
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2.5"
+                class="w-3 h-3"
+                viewBox="0 0 24 24"
+              >
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg> </span
+            >Exercises
+          </p>
+          <p class="flex items-center text-gray-600 mb-6">
+            <span
+              class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0"
+            >
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2.5"
+                class="w-3 h-3"
+                viewBox="0 0 24 24"
+              >
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg> </span
+            >Live Sessions + project(s)
+          </p>
+          <button
+            class="flex items-center mt-auto text-white bg-gray-400 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-500 rounded"
+          >
+            enroll now
+            <svg
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              class="w-4 h-4 ml-auto"
+              viewBox="0 0 24 24"
+            >
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+      <!-- card:frontend -->
+      <div class="p-4 xl:w-1/4 md:w-1/2 w-full" data-aos="fade-up">
+        <div
+          class="h-full p-6 rounded-lg border-2 border-orange-500 flex flex-col relative overflow-hidden"
+        >
+          <span
+            class="bg-orange-500 text-white px-3 py-1 tracking-widest text-xs absolute right-0 top-0 rounded-bl"
+            >POPULAR</span
+          >
+          <h2
+            class="text-sm tracking-widest title-font mb-1 font-medium capitalize text-left"
+          >
+            Duration: <span class="font-bolder">6 months</span>
+          </h2>
+          <h1
+            class="text-4xl text-gray-900 leading-none flex items-center pb-4 mb-4 border-b border-gray-200"
+          >
+            <span>Frontend</span>
+            <span class="text-lg ml-1 font-normal text-gray-500">course</span>
+          </h1>
+          <p class="flex items-center text-gray-600 mb-2">
+            <span
+              class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0"
+            >
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2.5"
+                class="w-3 h-3"
+                viewBox="0 0 24 24"
+              >
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg> </span
+            >3days a week
+          </p>
+          <p class="flex items-center text-gray-600 mb-2">
+            <span
+              class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0"
+            >
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2.5"
+                class="w-3 h-3"
+                viewBox="0 0 24 24"
+              >
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg> </span
+            >Html, css, js
+          </p>
+          <p class="flex items-center text-gray-600 mb-6">
+            <span
+              class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0"
+            >
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2.5"
+                class="w-3 h-3"
+                viewBox="0 0 24 24"
+              >
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg> </span
+            >vuejs, nuxt, react, next
+          </p>
+          <p class="flex items-center text-gray-600 mb-6">
+            <span
+              class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0"
+            >
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2.5"
+                class="w-3 h-3"
+                viewBox="0 0 24 24"
+              >
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg> </span
+            >Website Hosting etc.
+          </p>
+          <button
+            @click="($event) => navigateTo('/checkout')"
+            class="flex items-center mt-auto text-white bg-orange-500 border-0 py-2 px-4 w-full focus:outline-none hover:bg-orange-600 rounded"
+          >
+            enroll now
+            <svg
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              class="w-4 h-4 ml-auto"
+              viewBox="0 0 24 24"
+            >
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </button>
+          <p class="text-xs text-gray-500 mt-3"></p>
+        </div>
+      </div>
+    </div>
+    <div class="container flex flex-wrap justify-center items-center">
+      <!-- card:express -->
+      <div class="p-4 xl:w-1/4 md:w-1/2 w-full" data-aos="fade-up">
+        <div
+          class="h-full p-6 rounded-lg border-2 border-gray-300 flex flex-col relative overflow-hidden"
+        >
+          <h2
+            class="text-sm tracking-widest title-font mb-1 font-medium text-left"
+          >
+            Duration:<span class="font-bolder">2 Months</span>
+          </h2>
+          <h1
+            class="text-5xl text-gray-900 leading-none flex items-center pb-4 mb-4 border-b border-gray-200"
+          >
+            <span>Expressjs</span>
+            <span class="text-sm ml-1 font-normal text-gray-500"> course</span>
+          </h1>
+          <p class="flex items-center text-gray-600 mb-2">
+            <span
+              class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0"
+            >
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2.5"
+                class="w-3 h-3"
+                viewBox="0 0 24 24"
+              >
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg> </span
+            >3days a week
+          </p>
+          <p class="flex items-center text-gray-600 mb-2">
+            <span
+              class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0"
+            >
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2.5"
+                class="w-3 h-3"
+                viewBox="0 0 24 24"
+              >
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg> </span
+            >follow up
+          </p>
+          <p class="flex items-center text-gray-600 mb-6">
+            <span
+              class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0"
+            >
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2.5"
+                class="w-3 h-3"
+                viewBox="0 0 24 24"
+              >
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg> </span
+            >Exercises
+          </p>
+          <p class="flex items-center text-gray-600 mb-6">
+            <span
+              class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0"
+            >
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2.5"
+                class="w-3 h-3"
+                viewBox="0 0 24 24"
+              >
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg> </span
+            >Live Sessions + project(s)
+          </p>
+          <button
+            class="flex items-center mt-auto text-white bg-gray-400 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-500 rounded"
+          >
+            enroll now
+            <svg
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              class="w-4 h-4 ml-auto"
+              viewBox="0 0 24 24"
+            >
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+      <!-- card: nodejs -->
+      <div class="p-4 xl:w-1/4 md:w-1/2 w-full" data-aos="fade-up">
+        <div
+          class="h-full p-6 rounded-lg border-2 border-gray-300 flex flex-col relative overflow-hidden"
+        >
+          <h2
+            class="text-sm tracking-widest title-font mb-1 font-medium text-left"
+          >
+            Duration:<span class="font-bolder">2 Months</span>
+          </h2>
+          <h1
+            class="text-5xl text-gray-900 leading-none flex items-center pb-4 mb-4 border-b border-gray-200"
+          >
+            <span>NodeJs</span>
+            <span class="text-sm ml-1 font-normal text-gray-500"> course</span>
+          </h1>
+          <p class="flex items-center text-gray-600 mb-2">
+            <span
+              class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0"
+            >
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2.5"
+                class="w-3 h-3"
+                viewBox="0 0 24 24"
+              >
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg> </span
+            >3days a week
+          </p>
+          <p class="flex items-center text-gray-600 mb-2">
+            <span
+              class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0"
+            >
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2.5"
+                class="w-3 h-3"
+                viewBox="0 0 24 24"
+              >
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg> </span
+            >follow up
+          </p>
+          <p class="flex items-center text-gray-600 mb-6">
+            <span
+              class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0"
+            >
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2.5"
+                class="w-3 h-3"
+                viewBox="0 0 24 24"
+              >
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg> </span
+            >Exercises
+          </p>
+          <p class="flex items-center text-gray-600 mb-6">
+            <span
+              class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0"
+            >
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2.5"
+                class="w-3 h-3"
+                viewBox="0 0 24 24"
+              >
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg> </span
+            >Live Sessions + project(s)
+          </p>
+          <button
+            class="flex items-center mt-auto text-white bg-gray-400 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-500 rounded"
+          >
+            enroll now
+            <svg
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              class="w-4 h-4 ml-auto"
+              viewBox="0 0 24 24"
+            >
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+      <!-- card: mongodb -->
+      <div class="p-4 xl:w-1/4 md:w-1/2 w-full" data-aos="fade-up">
+        <div
+          class="h-full p-6 rounded-lg border-2 border-gray-300 flex flex-col relative overflow-hidden"
+        >
+          <h2
+            class="text-sm tracking-widest title-font mb-1 font-medium text-left"
+          >
+            Duration:<span class="font-bolder">2 Months</span>
+          </h2>
+          <h1
+            class="text-5xl text-gray-900 leading-none flex items-center pb-4 mb-4 border-b border-gray-200"
+          >
+            <span>MongoDB</span>
+            <span class="text-sm ml-1 font-normal text-gray-500"> course</span>
+          </h1>
+          <p class="flex items-center text-gray-600 mb-2">
+            <span
+              class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0"
+            >
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2.5"
+                class="w-3 h-3"
+                viewBox="0 0 24 24"
+              >
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg> </span
+            >3days a week
+          </p>
+          <p class="flex items-center text-gray-600 mb-2">
+            <span
+              class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0"
+            >
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2.5"
+                class="w-3 h-3"
+                viewBox="0 0 24 24"
+              >
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg> </span
+            >follow up
+          </p>
+          <p class="flex items-center text-gray-600 mb-6">
+            <span
+              class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0"
+            >
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2.5"
+                class="w-3 h-3"
+                viewBox="0 0 24 24"
+              >
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg> </span
+            >Exercises
+          </p>
+          <p class="flex items-center text-gray-600 mb-6">
+            <span
+              class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0"
+            >
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2.5"
+                class="w-3 h-3"
+                viewBox="0 0 24 24"
+              >
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg> </span
+            >Live Sessions + project(s)
+          </p>
+          <button
+            class="flex items-center mt-auto text-white bg-gray-400 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-500 rounded"
+          >
+            enroll now
+            <svg
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              class="w-4 h-4 ml-auto"
+              viewBox="0 0 24 24"
+            >
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+      <!-- card:backend -->
+      <div class="p-4 xl:w-1/4 md:w-1/2 w-full" data-aos="fade-up">
+        <div
+          class="h-full p-6 rounded-lg border-2 border-orange-500 flex flex-col relative overflow-hidden"
+        >
+          <span
+            class="bg-orange-500 text-white px-3 py-1 tracking-widest text-xs absolute right-0 top-0 rounded-bl"
+            >POPULAR</span
+          >
+          <h2
+            class="text-sm tracking-widest title-font mb-1 font-medium capitalize text-left"
+          >
+            Duration: <span class="font-bolder">4 months</span>
+          </h2>
+          <h1
+            class="text-5xl text-gray-900 leading-none flex items-center pb-4 mb-4 border-b border-gray-200"
+          >
+            <span>Backend</span>
+            <span class="text-lg ml-1 font-normal text-gray-500">course</span>
+          </h1>
+          <p class="flex items-center text-gray-600 mb-2">
+            <span
+              class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0"
+            >
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2.5"
+                class="w-3 h-3"
+                viewBox="0 0 24 24"
+              >
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg> </span
+            >3days a week
+          </p>
+          <p class="flex items-center text-gray-600 mb-2">
+            <span
+              class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0"
+            >
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2.5"
+                class="w-3 h-3"
+                viewBox="0 0 24 24"
+              >
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg> </span
+            >Nodejs
+          </p>
+          <p class="flex items-center text-gray-600 mb-6">
+            <span
+              class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0"
+            >
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2.5"
+                class="w-3 h-3"
+                viewBox="0 0 24 24"
+              >
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg> </span
+            >Expressjs, MongoDB, Hooks
+          </p>
+          <p class="flex items-center text-gray-600 mb-6">
+            <span
+              class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0"
+            >
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2.5"
+                class="w-3 h-3"
+                viewBox="0 0 24 24"
+              >
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg> </span
+            >Website Hosting etc.
+          </p>
+          <button
+            @click="($event) => navigateTo('/checkout')"
+            class="flex items-center mt-auto text-white bg-orange-500 border-0 py-2 px-4 w-full focus:outline-none hover:bg-orange-600 rounded"
+          >
+            enroll now
+            <svg
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              class="w-4 h-4 ml-auto"
+              viewBox="0 0 24 24"
+            >
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </button>
+          <p class="text-xs text-gray-500 mt-3"></p>
+        </div>
+      </div>
+      <!-- card:wordpress -->
+      <div class="p-4 xl:w-1/4 md:w-1/2 w-full" data-aos="fade-up">
+        <div
+          class="h-full p-6 rounded-lg border-2 border-orange-500 flex flex-col relative overflow-hidden"
+        >
+          <span
+            class="bg-orange-500 text-white px-3 py-1 tracking-widest text-xs absolute right-0 top-0 rounded-bl"
+            >POPULAR</span
+          >
+          <h2
+            class="text-sm tracking-widest title-font mb-1 font-medium capitalize text-left"
+          >
+            Duration: <span class="font-bolder">3 months</span>
+          </h2>
+          <h1
+            class="text-3xl text-gray-900 leading-none flex items-center pb-4 mb-4 border-b border-gray-200"
+          >
+            <span>Wordpress</span>
+            <span class="text-lg ml-1 font-normal text-gray-500">course</span>
+          </h1>
+          <p class="flex items-center text-gray-600 mb-2">
+            <span
+              class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0"
+            >
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2.5"
+                class="w-3 h-3"
+                viewBox="0 0 24 24"
+              >
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg> </span
+            >3days a week
+          </p>
+          <p class="flex items-center text-gray-600 mb-2">
+            <span
+              class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0"
+            >
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2.5"
+                class="w-3 h-3"
+                viewBox="0 0 24 24"
+              >
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg> </span
+            >Nodejs
+          </p>
+          <p class="flex items-center text-gray-600 mb-6">
+            <span
+              class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0"
+            >
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2.5"
+                class="w-3 h-3"
+                viewBox="0 0 24 24"
+              >
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg> </span
+            >Expressjs, MongoDB, Hooks
+          </p>
+          <p class="flex items-center text-gray-600 mb-6">
+            <span
+              class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0"
+            >
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2.5"
+                class="w-3 h-3"
+                viewBox="0 0 24 24"
+              >
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg> </span
+            >Website Hosting etc.
+          </p>
+          <button
+            @click="($event) => navigateTo('/checkout')"
+            class="flex items-center mt-auto text-white bg-orange-500 border-0 py-2 px-4 w-full focus:outline-none hover:bg-orange-600 rounded"
+          >
+            enroll now
+            <svg
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              class="w-4 h-4 ml-auto"
+              viewBox="0 0 24 24"
+            >
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </button>
+          <p class="text-xs text-gray-500 mt-3"></p>
+        </div>
+      </div>
+      <!-- card:web design -->
+      <div class="p-4 xl:w-1/4 md:w-1/2 w-full" data-aos="fade-up">
+        <div
+          class="h-full p-6 rounded-lg border-2 border-orange-500 flex flex-col relative overflow-hidden"
+        >
+          <span
+            class="bg-orange-500 text-white px-3 py-1 tracking-widest text-xs absolute right-0 top-0 rounded-bl"
+            >POPULAR</span
+          >
+          <h2
+            class="text-sm tracking-widest title-font mb-1 font-medium capitalize text-left"
+          >
+            Duration: <span class="font-bolder">4 months</span>
+          </h2>
+          <h1
+            class="text-3xl text-gray-900 leading-none flex items-center pb-4 mb-4 border-b border-gray-200"
+          >
+            <span>Web Design</span>
+            <span class="text-lg ml-1 font-normal text-gray-500">course</span>
+          </h1>
+          <p class="flex items-center text-gray-600 mb-2">
+            <span
+              class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0"
+            >
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2.5"
+                class="w-3 h-3"
+                viewBox="0 0 24 24"
+              >
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg> </span
+            >3days a week
+          </p>
+          <p class="flex items-center text-gray-600 mb-2">
+            <span
+              class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0"
+            >
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2.5"
+                class="w-3 h-3"
+                viewBox="0 0 24 24"
+              >
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg> </span
+            >Nodejs
+          </p>
+          <p class="flex items-center text-gray-600 mb-6">
+            <span
+              class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0"
+            >
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2.5"
+                class="w-3 h-3"
+                viewBox="0 0 24 24"
+              >
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg> </span
+            >Expressjs, MongoDB, Hooks
+          </p>
+          <p class="flex items-center text-gray-600 mb-6">
+            <span
+              class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0"
+            >
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2.5"
+                class="w-3 h-3"
+                viewBox="0 0 24 24"
+              >
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg> </span
+            >Website Hosting etc.
           </p>
           <button
             @click="($event) => navigateTo('/checkout')"

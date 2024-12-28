@@ -8,7 +8,7 @@
         Get in touch
       </h1>
       <img
-        src="/novo-logo.jpg"
+        src="/logo-white.jpg"
         style="
           height: 50px;
           width: auto;
@@ -27,7 +27,7 @@
 
       <nav>
         <a
-          href="https://linktr.ee/novolegacy"
+          href="#"
           target="_blank"
           class="text-white hover:bg-gray-900 capitalize bg-orange-500 px-5 py-3 rounded"
         >

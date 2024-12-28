@@ -9,33 +9,27 @@ export default defineNuxtConfig({
     "~/assets/styles/main.scss",
   ],
   runtimeConfig: {
-    // authSecret: process.env.AUTH_SECRET,
+    authSecret: process.env.AUTH_SECRET,
     clientId: process.env.PAYPAL_CLIENT_ID,
   },
 
-  // mongoose: {
-  //   uri: process.env.MONGODB_URI,
-  //   options: {},
-  //   modelsDir: "models",
-  //   devtools: true,
-  // },
-  // nuxtServerUtils: {
-  //   enabled: true, // default
-  //   enableDevTools: true, // default
-  //   mongodbUri: process.env.MONGODB_URI,
-  // },
+  mongoose: {
+    uri: process.env.MONGODB_URI,
+    options: {},
+    modelsDir: "models",
+    devtools: true,
+  },
 
   compatibilityDate: "2024-09-19",
   devtools: { enabled: true },
   modules: [
-    "@nuxt/ui",
     "nuxt-tradingview",
-    // "nuxt-mongoose",
-    // "nuxt-server-utils",
+    "nuxt-mongoose",
     // "@sidebase/nuxt-auth",
     "@element-plus/nuxt",
     "nuxt-paypal",
     "nuxt-nodemailer",
+    "@nuxtjs/tailwindcss",
   ],
   paypal: {
     clientId: process.env.PAYPAL_CLIENT_ID,

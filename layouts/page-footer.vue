@@ -50,7 +50,7 @@ footer {
   height: fit-content;
   padding: 20px;
   background: rgb(2, 92, 145);
-  background: url("/novo-logo.jpg");
+  background: url("../assets/logo-white.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;

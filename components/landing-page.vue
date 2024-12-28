@@ -2,8 +2,8 @@
   <div class="landing-page bg-white">
     <div class="relative m-auto flex justify-start items-center flex-wrap">
       <img
-        src="https://i.imgur.com/WbQnbas.png"
-        alt="Leafs"
+        src="~/assets/us.png"
+        alt="Advanced Tech Academy"
         class="small-screen w-full h-full object-contain sm:h-screen sm:w-4/12"
       />
       <div class="hero w-full sm:w-8/12 mb-10">
@@ -13,16 +13,18 @@
               <h1 class="text-4xl lg:text-6xl font-bold capitalize text-left">
                 Find your
                 <span class="text-orange-500 font-extrabold">perfect</span>
-                trading
-                <span class="text-orange-500 font-extrabold">mentorship</span>
+                tech
+                <span class="text-orange-500 font-extrabold">course.</span>
               </h1>
               <div class="stroke w-20 h-2 bg-orange-500 my-4"></div>
               <p class="text-xl mb-10 text-left">
                 Welcome to
-                <span class="text-orange-400 uppercase">Nova legacy</span>
-                website. We aim to provide the best possible services for
-                traders who wants to upskill their trading game. Beginner or
-                experienced, start your journey.
+                <span class="text-orange-400 uppercase"
+                  >Advanced Tech Academy</span
+                >
+                We aim to provide the best possible services for tech enthusiats
+                and those who want to upskill their coding and tech skill.
+                Beginner or experienced, start your journey.
               </p>
               <div
                 class="buttons flex flex-wrap gap-4 justify-start items-center"
@@ -35,7 +37,7 @@
                   <i
                     class="fa-brands fa-accessible-icon mr-2 animate-bounce"
                   ></i>
-                  Get Membership
+                  Enroll Now
                 </nuxt-link>
                 <nuxt-link
                   data-aos="zoom-out"

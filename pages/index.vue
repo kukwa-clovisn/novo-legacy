@@ -114,19 +114,23 @@
       </div>
     </div>
     <Team />
-    <div class="picture h-3/4 w-full flex flex-col justify-center gap-2">
+    <div
+      class="picture h-3/4 w-full gap-4 flex flex-col justify-center items-center"
+    >
       <div class="blur-wrapper"></div>
       <h1 class="text-center text-3xl capitalize text-white relative">
-        Be a trader with class
+        Become a
+        <span class="text-orange-500">First Class IT Expert</span> today.
       </h1>
       <nuxt-link
         to="/login"
-        class="w-fit px-5 py-2 bg-orange-500 text-white capitalize m-auto relative"
+        class="w-fit h-fit px-5 py-2 bg-orange-500 text-white capitalize relative"
         >Join Membership</nuxt-link
       >
     </div>
     <Testimonials />
-    <contact />
+    <!-- <contact /> -->
+    <ContactForm />
   </main>
 </template>
 <style lang="scss" scoped>
@@ -164,11 +168,10 @@ main {
 
   .picture {
     min-height: 70vh;
-    background: url("../assets/man-trading.jpg");
+    background: url("../assets/i.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    justify-content: center;
   }
 }
 </style>
